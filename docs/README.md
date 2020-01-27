@@ -47,4 +47,4 @@ Alt i alt bliver det til 28 timer pr. uge til gruppearbejde og selvstudie og 11 
 |          | 02-04-2019   | Test og kvalitet  | |
 |   **15** |   | **Påskeferie** ||
 
-Resten af skemaet følger
+Resten af skemaet følger i den kommende tid, men følger samme kadence.
