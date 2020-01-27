@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
-title: Dat 2. sem 2019 Bornholm
+title: Dat 2. sem 2020 Bornholm
 markdown: kramdown
 kramdown:
-   auto_ids: true
+  auto_ids: true
