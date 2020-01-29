@@ -4,7 +4,7 @@
 ## Introduktion
 Først skal du se denne video som en introduktion til emnet:
 
-* [Introduktion til UX og UI](https://www.w3schools.com/html/)
+* [Introduktion til UX og UI](https://www.youtube.com/watch?v=suxPabcaALQ)
 
 ## Wireframing, webdesign og prototyper
 I dette semester skal vi anvende softwareproduktet Adobe XD til udarbejdelse af protyper. Du skal downloade og installere programmet herfra (det er gratis):
