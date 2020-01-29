@@ -19,6 +19,10 @@ Vi regner endvidere med, at I efter vejledningsmøderne laver en de-briefing i g
 
 Alt i alt bliver det til 28 timer pr. uge til gruppearbejde og selvstudie og 11 timer på klasse tilstedeværelse og gruppe vejledning.
 
+## Introduktion til semestret
+
+Se denne [video (17:39)](https://www.youtube.com/watch?v=suxPabcaALQ)
+
 ## Plan og indhold
 
 |  Uge     | Dato        | Emne                                     | Opgave |
