@@ -25,9 +25,9 @@ Alt i alt bliver det til 28 timer pr. uge til gruppearbejde og selvstudie og 11 
 | ---:     | :---------- | :--------------------------------------- | ------- |
 |          | **Modul 1** | **Netværk & tråde**                      |  |
 |        5 | 28-01-2019  | [HTTP, servere og netværk del 1](Modul1/Httpserver.md) ||
-|          | 30-01-2019  | [HTML/CSS/Javascript del 1](Modul1/html.md) ||
+|          | 30-01-2019  | [HTML/CSS/Javascript del 1](Modul1/html/) ||
 |        6 | 04-02-2019  | [HTTP, servere og netværk del 2](Modul1/Httpserver.md) ||
-|          | 06-02-2019  | [HTML/CSS/Javascript del 2](Modul1/html.md) ||
+|          | 06-02-2019  | [HTML/CSS/Javascript del 2](Modul1/html/) ||
 |        7 | 11-02-2019  | [Tråde og performance del 1](Modul1/Threads.md)     ||
 |          | 13-02-2019| [Linux - SSH på droplet del 1](Modul2/Week1-Deployment) ||
 |        8 | 18-02-2019  | [Tråde og performance del 2](Modul1/Threads.md)     ||

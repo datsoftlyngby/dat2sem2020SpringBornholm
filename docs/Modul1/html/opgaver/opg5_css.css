@@ -1,0 +1,14 @@
+p {
+		font-family: 'Helvetica Neue', sans-serif; 
+		font-size: 24px; 
+		}
+
+p::first-letter{
+		color: blue;
+		font-weight:bold;
+		font-size:150%
+		}
+
+p::first-line{
+		color: red;
+		}
