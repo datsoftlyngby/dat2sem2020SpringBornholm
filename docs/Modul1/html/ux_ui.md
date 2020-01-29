@@ -1,5 +1,5 @@
 # Userinterfaces, UX, and UI
-[Erhvervskompentancer og Læringsmål](admin_ux_ui.md)
+[Erhvervskompentencer og Læringsmål](admin_ux_ui.md)
 
 ## Introduktion
 Først skal du se denne video som en introduktion til emnet:
