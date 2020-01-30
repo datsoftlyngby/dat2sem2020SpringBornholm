@@ -16,7 +16,7 @@ I dette semester skal vi anvende softwareproduktet Adobe XD til udarbejdelse af 
 
 Se denne video, som giver en introduktion til Adobe XD:
 
-* [Intro til Adobe XD](https://youtu.be/BEkzWirRA68)
+* [Intro til Adobe XD](https://youtu.be/BEkzWirRA68) (29:42)
 
 Undervejs skal du downloade to UI-kits, som skal pakkes ud og åbnes i XD:
 
