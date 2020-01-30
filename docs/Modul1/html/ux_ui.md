@@ -4,7 +4,7 @@
 ## Introduktion
 Først skal du se denne video som en introduktion til emnet:
 
-* [Introduktion til UX og UI (9:06)](https://www.youtube.com/watch?v=suxPabcaALQ)
+* [Introduktion til UX og UI](https://www.youtube.com/watch?v=suxPabcaALQ) (9:06)
 
 Videoen er inspireret af [denne artikel](https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/)
 
@@ -18,10 +18,12 @@ Se denne video, som giver en introduktion til Adobe XD:
 
 * [Intro til Adobe XD]()
 
-Undervejs skal du downloade et UI-kit, som skal pakkes ud og åbnes i XD:
+Undervejs skal du downloade to UI-kits, som skal pakkes ud og åbnes i XD:
 
 * [UI-kit](https://www.behance.net/gallery/72045189/Responsive-Resize-Kit)
+* [Bootstrap 4 UI](https://xdresources.co/resources/bootstrap-4-ui)
 
+Et UI-kit er nogle skabeloner, som andre har lavet i Adobe XD, som vi kan sakse fra.
 
 # Opgave
 * [Carpool](./opgaver/20200130_Usability_Carpool.pdf)
