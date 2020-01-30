@@ -23,6 +23,10 @@ Alt i alt bliver det til 28 timer pr. uge til gruppearbejde og selvstudie og 11 
 
 Se denne [video (17:39)](https://www.youtube.com/watch?v=suxPabcaALQ)
 
+## Videobibliotek
+
+Alle de centrale videoer til dette semester er samlet i dette [bibliotek](https://datsoftlyngby.github.io/dat2sem2020VideoLibrary/)
+
 ## Plan og indhold
 
 |  Uge     | Dato        | Emne                                     | Opgave |
