@@ -21,7 +21,7 @@ Alt i alt bliver det til 28 timer pr. uge til gruppearbejde og selvstudie og 11 
 
 ## Introduktion til semestret
 
-Se denne [video (17:39)](https://www.youtube.com/watch?v=suxPabcaALQ)
+Se denne [video (17:39)](https://www.youtube.com/watch?v=BfckE05Ue4E)
 
 ## Videobibliotek
 
