@@ -27,25 +27,26 @@ Se denne [video (17:39)](https://www.youtube.com/watch?v=BfckE05Ue4E)
 
 Alle de centrale videoer til dette semester er samlet i dette [bibliotek](https://datsoftlyngby.github.io/dat2sem2020VideoLibrary/)
 
+
 ## Plan og indhold
 
-|  Uge     | Dato        | Emne                                     | Opgave |
-| ---:     | :---------- | :--------------------------------------- | ------- |
+|  Uge     | Dato        | Emne                                     | Note |
+| ---:     | :---------- | :--------------------------------------- | :------- |
 |          | **Modul 1** | **Netværk & tråde**                      |  |
 |        5 | 28-01-2019  | [HTTP, servere og netværk del 1](Modul1/Httpserver.md) ||
 |          | 30-01-2019  | [Userinterfaces, UX og UI](Modul1/html/ux_ui.md) ||
 |        6 | 04-02-2019  | [HTTP, servere og netværk del 2](Modul1/Httpserver.md) ||
 |          | 06-02-2019  | [HTML/CSS/Javascript](Modul1/html/) ||
-|        7 | 11-02-2019  | [Tråde og performance del 1](Modul1/Threads.md)     ||
+|        7 | 11-02-2019  | [Tråde og performance del 1](Modul1/Threads.md)     | Online |
 |          | 13-02-2019| [Linux - SSH på droplet del 1](Modul2/Week1-Deployment) ||
 |        8 | 18-02-2019  | [Tråde og performance del 2](Modul1/Threads.md)     ||
 |          | 20-02-2019| [Linux - SSH på droplet del 2](Modul2/Week1-Deployment) ||
 |          | **Modul 2** | **Webstack**                             ||
 |        9 | 25-02-2019| [Database del 1](Modul2/Week2-Database/) ||
 |          | 26-02-2019| [Database del 2](Modul2/Week2-Database/)  ||
-|       10 | 03-03-2019 | [Webprogrammering backend del 1](Modul2/Week3-Backend/)  |  |
+|       10 | 03-03-2019 | [Webprogrammering frontend del 1](Modul2/Week3-Frontend/)  | Online |
 |          | 05-03-2019 |  [Webprogrammering backend del 2](Modul2/Week3-Backend/) |  |
-|       11 | 10-03-2019| [Webprogrammering frontend del 1](Modul2/Week4-Frontend) | |
+|       11 | 10-03-2019| [Webprogrammering backend del 1](Modul2/Week4-Backend) | |
 |          | 12-03-2019| [Webprogrammering frontend del 2](Modul2/Week4-Frontend) |Cupcake|
 |		  12| 17-03-2019| [Webstack (arkitektur og mønstre)](Modul3/) | Cupcake |
 |		    | 19-03-2019| [Webstack (arkitektur og mønstre)](Modul3/) | Cupcake |
