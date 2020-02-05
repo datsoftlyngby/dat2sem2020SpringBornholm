@@ -19,7 +19,10 @@ Lær at anvende de hyppigst benyttede html-tags. Der laves en demo i IntelliJ, o
 HTML er struktur og indhold, CSS er farver og striber, styling og positionering. Eksemplet fra den forrige video om HTML, bliver stylet i denne video, og der tilføjes en række yderligere tags og elementer. Det anbefales også kraftigt at du koder med til denne video. Så sæt god tid af, og smøg ærmerne op.
 
 ## Bootstrap 4.0
-[Bootstrap og brugergrænseflader ()]()
+[Bootstrap og brugergrænseflader](https://youtu.be/c4Rd2u4nXUo)] (57:55)
+
+Gør dine html-sider repsonsive med Bootstrap.
+
 
 
 
