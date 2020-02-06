@@ -30,8 +30,12 @@ Første linje i hvert afsnit skal formateres.
 - [HTML dokument](./opgave_4.html)
 - [CSS dokument](./opg4_css.css)
 
-## Opgave 5: Webside (Bootstrap)
-Eksempel på en "hel" webside
+## Opgave 5: Solsikken del II (Bootstrap)
+Du skal lave en responsiv udgave af designet fra opgaven vi lavede i Adobe XD i sidste uge. Dvs, at du skal bruge html/css/bootstrap. Åbn Adobe XD filen nedenfor, og se hvad designeren har tænkt sig. Der er også indsat screendumps, hvis du ikke har Adobe XD kørende. Websiderne skal fungere på både en desktop-browser og på en mobiltelefon.
 
-- [Html filen](./web2.html)
-- [CSS filen](./web2.css)
+### Desktop-udgave
+- [Adobe XD artboards](./Solsikken.xd)
+
+![](./solsikken_desktop.png)
+### Mobile-udgave
+![](./solsikken_mobile.png)
