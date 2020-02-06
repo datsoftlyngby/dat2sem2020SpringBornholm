@@ -37,5 +37,5 @@ Du skal lave en responsiv udgave af designet fra opgaven vi lavede i Adobe XD i 
 - [Adobe XD artboards](./Solsikken.xd)
 
 ![](./solsikken_desktop.png)
-### Mobile-udgave
+### Mobil-udgave
 ![](./solsikken_mobile.png)
