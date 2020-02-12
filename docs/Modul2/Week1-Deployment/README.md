@@ -14,9 +14,9 @@ I skal alle oprette en server på Digital Ocean. Prisen for en Droplet på Digit
 - At I bliver fortrolige med Linux og opsætning af servermiljøer
 
 ## Introduktion: Om virtuelle maskiner og ugens plan
-- [Video: Intro til modulet og materialerne](https://youtu.be/UxokCeT9WZ4)
-- [Video: Hvad er Cloud Computing?](https://youtu.be/Go0ETuLyyUc)
-- [Video: Hvad er en virtuel maskine](https://youtu.be/hUgdtbD0DRQ)
+- [Video: Intro til modulet og materialerne](https://youtu.be/UxokCeT9WZ4) (6:01)
+- [Video: Hvad er Cloud Computing?](https://youtu.be/Go0ETuLyyUc) (23:49)
+- [Video: Hvad er en virtuel maskine](https://youtu.be/hUgdtbD0DRQ) (24:14)
 
 De første `50$` til digital ocean kan du få gratis gennem [GitHub Education](https://education.github.com/students). Tilmeld dig straks og få rabat, når du lige om lidt skal oprette en Droplet.
 
