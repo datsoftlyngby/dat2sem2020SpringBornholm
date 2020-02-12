@@ -14,8 +14,9 @@ I skal alle oprette en server på Digital Ocean. Prisen for en Droplet på Digit
 - At I bliver fortrolige med Linux og opsætning af servermiljøer
 
 ## Introduktion: Om virtuelle maskiner og ugens plan
-- [Video: Hvad er Cloud Computing?]()
-- [Video: Om virtuelle maskiner og beskrivelse af hele forløbet]()
+- [Video: Intro til modulet og materialerne](https://youtu.be/UxokCeT9WZ4)
+- [Video: Hvad er Cloud Computing?](https://youtu.be/Go0ETuLyyUc)
+- [Video: Hvad er en virtuel maskine](https://youtu.be/hUgdtbD0DRQ)
 
 De første `50$` til digital ocean kan du få gratis gennem [GitHub Education](https://education.github.com/students). Tilmeld dig straks og få rabat, når du lige om lidt skal oprette en Droplet.
 
@@ -25,7 +26,7 @@ Denne første tutorial leder dig igennem installation og konfigurering af en vir
 - [Dokument: Opsætning af Droplet, Linux og SSH](https://docs.google.com/document/d/19ggC3KYmmsIR8sWHIwW_wFyJ2lrFjJH8KKVvyDUJ8gQ/edit?usp=sharing)
 - [Video: Gennemgang af opsætningen med kommentarer]()
 
-## 2. Filezilla
+## 2. FileZilla
 FTP klient, som vi skal bruge til at overfører filer til og fra vores Droplet.
 
 - Download [https://filezilla-project.org](https://filezilla-project.org)
