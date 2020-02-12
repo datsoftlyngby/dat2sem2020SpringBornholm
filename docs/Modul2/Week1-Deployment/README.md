@@ -24,7 +24,7 @@ De første `50$` til digital ocean kan du få gratis gennem [GitHub Education](h
 Denne første tutorial leder dig igennem installation og konfigurering af en virtuel server hos Digital Ocean (kaldes en Droplet). Efter oprettelsen skaffer vi adgang via ssh, laver en Swap-disk og tager til sidst en backup (snapshot) af maskinen.
 
 - [Dokument: Opsætning af Droplet, Linux og SSH](https://docs.google.com/document/d/19ggC3KYmmsIR8sWHIwW_wFyJ2lrFjJH8KKVvyDUJ8gQ/edit?usp=sharing)
-- [Video: Gennemgang af opsætningen med kommentarer]()
+- [Video: Gennemgang af opsætningen med kommentarer](https://youtu.be/Spw31uwW0S0)
 
 ## 2. FileZilla
 FTP klient, som vi skal bruge til at overfører filer til og fra vores Droplet.
