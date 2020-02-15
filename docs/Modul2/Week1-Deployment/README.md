@@ -33,7 +33,7 @@ FTP klient, som vi skal bruge til at overfører filer til og fra vores Droplet.
 - [Video: Installation af Filezilla og forbindelse til Droplet](https://youtu.be/RNlXL4FVAeQ)
 
 
-## 3. MySQL installationen
+## 3. MySQL 8 installationen
 Opsæt brugere og rettigheder. Opret forbindelse til MySql 8 serveren udefra (fra internettet) fra MySql Workbench.
 
 - [Dokument: Tutorial til installation af MySql 8 Server på Linux serveren](https://docs.google.com/document/d/1NtekaiYB-oayiw3yecwE3q1j8f_fnhvV3pREbx31Z8w/edit?usp=sharing) 
@@ -46,11 +46,13 @@ mysql -u root -p
 source /home/<username>/demo.sql; 
 ```
 
-## 4. Apache Tomcat
+## 4. Apache Tomcat 9
 Tomcat er vores webserver (egenlig hedder den en webcontainer). Den skal også installeres og konfigureres:
 
 - [Dokument: Tutorial til installation af Tomcat 9.0 på Linux serveren](https://docs.google.com/document/d/1mS4UL-3CUzObCds9seqtQtYR9eg0NBWKtQn_rUPmaC0/edit?usp=sharing)
-- [Video: Gennemgang af installationen med kommentarer]()
+- [Video: Gennemgang af installationen med kommentarer](https://youtu.be/Iktg2A6S4y8)
+
+Til sidst i videoen skal I prøve at lægge nogle flade html/css filer på webserveren, så I kan beundre resultatet (den sidste del er kun med på videoen). Hvis du ikke selv har nogle brugbare html-filer, så kan du downloade, udpakke og bruge [disse](./BootstrapVersion.zip).
 
 ## 5. Linuxøvelser
 Vi ser på Linuxøvelser og vores smækre virtuelle maskine.
