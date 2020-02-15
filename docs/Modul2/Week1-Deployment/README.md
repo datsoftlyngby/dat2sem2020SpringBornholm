@@ -30,14 +30,14 @@ Denne første tutorial leder dig igennem installation og konfigurering af en vir
 FTP klient, som vi skal bruge til at overfører filer til og fra vores Droplet.
 
 - Download [https://filezilla-project.org](https://filezilla-project.org)
-- [Video: Installation af Filezilla og forbindelse til Droplet]()
+- [Video: Installation af Filezilla og forbindelse til Droplet](https://youtu.be/RNlXL4FVAeQ)
 
 
 ## 3. MySQL installationen
 Opsæt brugere og rettigheder. Opret forbindelse til MySql 8 serveren udefra (fra internettet) fra MySql Workbench.
 
 - [Dokument: Tutorial til installation af MySql 8 Server på Linux serveren](https://docs.google.com/document/d/1NtekaiYB-oayiw3yecwE3q1j8f_fnhvV3pREbx31Z8w/edit?usp=sharing) 
-- [Video: Gennemgang af installationen med kommentarer]()
+- [Video: Gennemgang af installationen med kommentarer](https://youtu.be/bKwWKw9YC7A)
 
 Kør SQL scriptet [demo.sql](./demo.sql) på MySQL serveren (Digital Ocean), direkte via MySQL kommandoprompt. Sådan: 
 
@@ -49,7 +49,7 @@ source /home/<username>/demo.sql;
 ## 4. Apache Tomcat
 Tomcat er vores webserver (egenlig hedder den en webcontainer). Den skal også installeres og konfigureres:
 
-- [Dokument: Tutorial til installation af Tomcat 9.0 på Linux serveren](https://docs.google.com/document/d/1qyWfFoHm4rhDHdKrPS5Fj-R8HqvKSDjmzlzStpwaEmo/edit?usp=sharing)
+- [Dokument: Tutorial til installation af Tomcat 9.0 på Linux serveren](https://docs.google.com/document/d/1mS4UL-3CUzObCds9seqtQtYR9eg0NBWKtQn_rUPmaC0/edit?usp=sharing)
 - [Video: Gennemgang af installationen med kommentarer]()
 
 ## 5. Linuxøvelser
