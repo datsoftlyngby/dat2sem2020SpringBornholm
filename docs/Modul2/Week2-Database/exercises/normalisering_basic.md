@@ -24,7 +24,7 @@ Pushkin;534-9832;7;Biology;Griffith;253-9833;Bio Engr;Spring
 
 ## Opgave 2
 
-Vi er blevet kontaktet af studenterklubben USG, som har brug for en større medlemssystem. Se følgende refereat igennem og kom med et forslag til en databasestruktur på 3NF.
+Vi er blevet kontaktet af studenterklubben USG, som har brug for et større medlemssystem. Se følgende refereat igennem og kom med et forslag til en databasestruktur på 3NF.
 
 [USG klubdatabase](usg_miniprojekt.pdf)
 

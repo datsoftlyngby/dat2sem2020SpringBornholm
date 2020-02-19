@@ -2,8 +2,8 @@
 
 **Based on the [ClassicModels database](DatabaseClassicModels.sql).**
 
-- 1 (G) - Get the script file: DatabaseClassicModels.sql from the github repo
-- 2 (G) - Run the script on you local Mysql server
+- 1 (G) - Get the script file: DatabaseClassicModels.sql
+- 2 (G) - Run the script on your local Mysql server
 - 3 (G) - Check that there were no errors and that 8 tables were created and filled with data.
 
 ###  SELECT (ONE TABLE only)

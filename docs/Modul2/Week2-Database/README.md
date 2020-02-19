@@ -6,10 +6,44 @@
 
 | Dag     | Emne                                     |
 | ------- | ---------------------------------------- |
-| Mandag  | Undervisning i klassen og opgaver kl. 9.30 - 13.00  |
-| Tirsdag | Online møde kl. 14 - 15 |
-| Torsdag | JDBC og SQL kl. 9.30 - 13.00 |
-| Fredag  | Review kl. 11 - 12 - vis hvad I har lavet i ugens løb.|
+| Tirsdag  | Modellering og normalisering |
+| Onsdag | Online møde |
+| Torsdag | JDBC og SQL |
+| Fredag  | Online møde |
+
+### Resultatet
+
+Efter denne uge har i været igennem følgende:
+
+1. I har lært hvordan man designer en database med tabeller og relationer, samt datatyper på kolonnerne og "constraints" der hjælper med at sikre data integriteten.
+2. I har lært hvordan man laver CRUD (Create, Read, Update og Delete) operationer på databasen for at manipulere data.
+3. I vil kende til forskellen på DDL: Data Definition Language og DML: Data Manipulation Language.
+4. I vil vide hvordan man man laver et E/R diagram og hvordan omsætter dette til en fysisk data model og til et sql script
+5. I vil have lært en række SQL commandoer til at kunne lave komplekse udtræk af data fra en database med flere sammenkædede tabeller.
+
+
+## Tirsdag: Modellering og normalisering
+Laver vi en “code-along” hvor vi i fællesskab designer en lille database. Vi skal også se på normalisering.
+
+### Resourcer
+- [Slides fra dagens gennemgang](resources/slides.pptm)
+- [DDL - script til selve databasen](resources/ddl.sql)
+- [DML - script til data i databasen](resources/dml.sql)
+- [Dansk artikel om normalisering](resources/DB_normalisering.pdf)
+- [Ekstra normaliseringsopgaver](exercises/normalisering_basic.md)
+
+
+## Torsdag
+JDBC og SQL. 
+- Genopfrisking af indhold fra 1. semester
+
+### Opgaver
+- Lav [Øvelse 1](exercises/biblioteket.md): Biblioteket
+- Lav [Øvelse 2](exercises/SQLex1.md): Classic Models
+
+### Resourcer
+- [Java project m prepared statements og transaction](resources/TestDB.zip)
+
 
 
 ### Oversigt over resourcer (til opslag og inspiration):  
@@ -26,61 +60,6 @@
 | 8: JDBC                          | [JDBC](https://www.tutorialspoint.com//jdbc/jdbc-quick-guide.htm): Connection, Statement, PreparedStatement og [SQL Injection](https://www.javacodegeeks.com/2012/11/sql-injection-in-java-application.html), [ResultSet](http://tutorials.jenkov.com/jdbc/resultset.html), [Transactions](https://www.tutorialspoint.com/mysql/mysql-transactions.htm) i Mysql og [Transactions i java med JDBC](https://www.tutorialspoint.com/jdbc/jdbc-transactions.htm). |
 | 9: SQL Exceptions                | [SQL Exceptions](https://www.tutorialspoint.com/jdbc/jdbc-exceptions.htm) og hvordan man opsætter og læser error [logs](http://www.pontikis.net/blog/how-and-when-to-enable-mysql-logs) (Configurationsfilen ligger på: /etc/mysql/mysql.conf.d/mysqld.cnf og logfilen på `sudo tail /var/log/mysql/mysql.log`) |
 | 10: Backup                       | [Backup og Restore database.](https://www.backuphowto.info/how-backup-mysql-database-automatically-linux-users) |
-
-
-
-### Resultatet
-
-Efter denne uge har i været igennem følgende:
-
-1. I har lært hvordan man designer en database med tabeller og relationer, samt datatyper på kolonnerne og "constraints" der hjælper med at sikre data integriteten.
-2. I har lært hvordan man laver CRUD (Create, Read, Update og Delete) operationer på databasen for at manipulere data.
-3. I vil kende til forskellen på DDL: Data Definition Language og DML: Data Manipulation Language.
-4. I vil vide hvordan man man laver et E/R diagram og hvordan omsætter dette til en fysisk data model og til et sql script
-5. I vil have lært en række SQL commandoer til at kunne lave komplekse udtræk af data fra en database med flere sammenkædede tabeller.
-
-#### Læringsmål
-
-Efter denne uge er det meningen at du kan:
-
-- Oprette en database med tabeller og indbyrdes relationer udfra en forståelse af kravsspecifikationer
-- Lave primary key og foreign key constraints på tabellerne
-- Forstå og tale om de 3 Normal Former og omsætte dem til praktisk database design
-- Bruge JDBC fra et java program til at udføre CRUD operationer på databasen.
-
-#### Erhvervskompetencer
-
-Når ugen er omme har du opnået følgende kompetencer:
-
-- Du kan redegøre for database design og implementation.
-- Du kan oprette og manipulere en MySql database.
-- Du kan bruge databaser i dine java programmer.
-
-## Mandag - Undervisning
-Laver vi en “code-along” hvor vi I fællesskab designer og koder en lille database. Vi skal også se på normalisering.
-
-### Resourcer
-- [Slides fra dagens gennemgang](resources/slides.pptm)
-- [DDL - script til selve databasen](resources/ddl.sql)
-- [DML - script til data i databasen](resources/dml.sql)
-- [Dansk artikel om normalisering](resources/DB_normalisering.pdf)
-- [Ekstra normaliseringsopgaver](exercises/normalisering_basic.md)
-
-## Tirsdag - Review   
-Tirsdag taler vi om de øvelser i har lavet. Vi vil gerne høre jer fortælle om de 3 normalformer, hvad forskellen er på inner join og left join, hvordan man laver en sub query og mange flere ting.
-### Opgaver til tirsdag
-Lav [Øvelse 1](exercises/SQLex1.md) og [Øvelse 2](exercises/DDLexercise2.md)
-
-## Torsdag - Undervisning
-JDBC og SQL
-### Resourcer
-- [Java project m prepared statements og transaction](resources/TestDB.zip)
-
-
-## Fredag - Review   
-Når vi mødes fredag vil vi gerne have en demo af jeres arbejde med opgaverne.
-### Opgaver til fredag
-Lav [Øvelse 3](exercises/NormaliseringEx3.md) og [Øvelse 4](exercises/DatabaseExercise4.md)
 
 
 
