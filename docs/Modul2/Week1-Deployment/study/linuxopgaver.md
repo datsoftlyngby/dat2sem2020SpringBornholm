@@ -8,14 +8,14 @@ Log ind på din Droplet via ssh og brug dit eget brugernavn
 - Brug nano og opret en tom tekst-fil ved navn `klasseliste.txt`.
 2. Kopier navnelisten herunder ind i tekstfilen og gem den:
 
-```Benjamin Sommer Skovgaard	cph-bs190@cphbusiness.dk 2873-6042
-Frederik Breinholt Janum	cph-fj108@cphbusiness.dk 2049-1450
-Mari Rødseth Haugen	cph-mh823@cphbusiness.dk 5239-8944
-Martin Winther Hansen	cph-mh824@cphbusiness.dk 5148-9550
-Matt Grønnegaard Thomsen	cph-mt312@cphbusiness.dk 5180-4459
-Pelle Mathias Rasmussen	cph-pr128@cphbusiness.dk 2826-1990
-Jon Bertelsen	jobe@cphbusiness.dk	2275-5844
-Nikolaj Brandt Hemmeshøj	nbh@cphbusiness.dk 6060-6837
+```Benjamin S.	cph-bhdgs190@cphbusiness.dk
+Frederik J.	cph-fj1hg08@cphbusiness.dk 
+Mari H.	cph-mhgfs823@cphbusiness.dk 
+Martin H.	cph-mh8gfs24@cphbusiness.dk 
+Matt T.	cph-mt3sdfg12@cphbusiness.dk 
+Pelle R	cph-prsdfg128@cphbusiness.dk 
+Jon B.	jodfghbe@cphbusiness.dk	
+Nikolaj H. nbhhghgd@cphbusiness.dk 
 ```
 
 - Opret en tom folder ved navn Lister og flyt `klasselisten.txt` derned.
