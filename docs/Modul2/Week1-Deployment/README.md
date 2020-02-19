@@ -55,9 +55,19 @@ Tomcat er vores webserver (egenlig hedder den en webcontainer). Den skal også i
 Til sidst i videoen skal I prøve at lægge nogle flade html/css filer på webserveren, så I kan beundre resultatet (den sidste del er kun med på videoen). Hvis du ikke selv har nogle brugbare html-filer, så kan du downloade, udpakke og bruge [disse](./BootstrapVersion.zip).
 
 ## 5. Linuxøvelser
-Vi ser på Linuxøvelser og vores smækre virtuelle maskine.
+Her er tre tutorials med opgaver, som  vil lette dit liv fremover. Kør eksemplerne igennem og noter dig hvilke kommandoer, som du helt sikkert får brug for:
 
-- [Ekstra øvelser om bash scripting (til inspiration)](study/ex2bash.md)   
+- [15 øvelser i brug af history](https://www.thegeekstuff.com/2008/08/15-examples-to-master-linux-command-line-history/)
+- [15 øverlser i brug af find](https://www.thegeekstuff.com/2009/03/15-practical-linux-find-command-examples/)
+- [15 øvelser i brug af grep](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+
+Denne opgave skal laves individuelt og er en slagt test, som vil vise dig om du har forstået de mest basale Linux kommandoer:
+
+- [De vigtigste Linux kommandoer](./study/linuxopgaver.md)
+
+Hvis du har godt med tid, så kig på disse opgaver. De handler om scripting, som er nyttig viden til at automatisere opgaver:
+
+- [Ekstra øvelser om bash scripting (hvis du får tid)](study/ex2bash.md)   
 
 ## Ressourcer til ugen
 
@@ -68,10 +78,8 @@ Vi ser på Linuxøvelser og vores smækre virtuelle maskine.
 #### Ekstra ressourcer (til orientering og opslag):
 [Shell Scripting](http://ryanstutorials.net/linuxtutorial/scripting.php)  
 [Bash on Lynda.com ](https://www.lynda.com/Bash-tutorials/Up-Running-Bash-Scripting/142989-2.html)  
-[SSH on Lynda.com:](https://www.lynda.com/Developer-Network-Administration-tutorials/Welcome/189066/365610-4.html)   
 [SSH video on youtube:](https://www.youtube.com/watch?v=svRWcx7dT8g)   
-[Public/private key concept article](http://blakesmith.me/2010/02/08/understanding-public-key-private-key-concepts.html)  
-[Digital Ocean tutorial: SSH & connecting to ubuntu](https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process)   
+[Public/private key concept article](http://blakesmith.me/2010/02/08/understanding-public-key-private-key-concepts.html)   
 
 
 ```
