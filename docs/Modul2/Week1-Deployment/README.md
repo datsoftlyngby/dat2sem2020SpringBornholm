@@ -81,8 +81,3 @@ Hvis du har godt med tid, så kig på disse opgaver. De handler om scripting, so
 - [Bash on Lynda.com ](https://www.lynda.com/Bash-tutorials/Up-Running-Bash-Scripting/142989-2.html)  
 - [SSH video on youtube:](https://www.youtube.com/watch?v=svRWcx7dT8g)   
 - [Public/private key concept article](http://blakesmith.me/2010/02/08/understanding-public-key-private-key-concepts.html)   
-
-
-```
-
-```
