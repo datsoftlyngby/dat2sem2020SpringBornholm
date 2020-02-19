@@ -76,10 +76,11 @@ Hvis du har godt med tid, så kig på disse opgaver. De handler om scripting, so
 [Cheat sheet til de meste brugte linux commands](study/linuxcommands.pdf): Dette ensides ark kan i printe ud og have liggende ved siden af jer i begyndelsen indtil i bliver fortrolige med de meste brugte commands i linux.  
 
 #### Ekstra ressourcer (til orientering og opslag):
-[Shell Scripting](http://ryanstutorials.net/linuxtutorial/scripting.php)  
-[Bash on Lynda.com ](https://www.lynda.com/Bash-tutorials/Up-Running-Bash-Scripting/142989-2.html)  
-[SSH video on youtube:](https://www.youtube.com/watch?v=svRWcx7dT8g)   
-[Public/private key concept article](http://blakesmith.me/2010/02/08/understanding-public-key-private-key-concepts.html)   
+- [Linux kommandoer](./study/linux_commands.md)
+- [Shell Scripting](http://ryanstutorials.net/linuxtutorial/scripting.php)  
+- [Bash on Lynda.com ](https://www.lynda.com/Bash-tutorials/Up-Running-Bash-Scripting/142989-2.html)  
+- [SSH video on youtube:](https://www.youtube.com/watch?v=svRWcx7dT8g)   
+- [Public/private key concept article](http://blakesmith.me/2010/02/08/understanding-public-key-private-key-concepts.html)   
 
 
 ```
