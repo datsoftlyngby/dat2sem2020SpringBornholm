@@ -1,4 +1,5 @@
 #Useful Linux commands
+
 |command | comment|
 |---|---|
 |`adduser <username>` | add a new user and provide password when prompted twice|
