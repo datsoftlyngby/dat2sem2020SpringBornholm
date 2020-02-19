@@ -1,5 +1,6 @@
 # Database design.
 
+[Erhvervskompentencer og Læringsmål](./admin.md)
 
 ### Oversigt over ugen:  
 
