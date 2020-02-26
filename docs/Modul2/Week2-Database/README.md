@@ -24,15 +24,15 @@ Efter denne uge har i været igennem følgende:
 
 
 ## Tirsdag: Modellering og normalisering
-Laver vi en “code-along” hvor vi i fællesskab designer en lille database. Vi skal også se på normalisering.
+Læs denne artikel: - [Dansk artikel om normalisering](resources/DB_normalisering.pdf)
 
-### Resourcer
-- [Slides fra dagens gennemgang](resources/slides.pptm)
-- [DDL - script til selve databasen](resources/ddl.sql)
-- [DML - script til data i databasen](resources/dml.sql)
-- [Dansk artikel om normalisering](resources/DB_normalisering.pdf)
-- [Ekstra normaliseringsopgaver](exercises/normalisering_basic.md)
+[Opgave i normalisering](exercises/NormaliseringEx3.md)
 
+## Onsdag: Video-dag
+Se disse to videoer om mange til mange relationer:
+
+1. [Eksempel fra Delfinprojektet](https://www.youtube.com/watch?v=l5nn4vyn2W8)
+2. [Diverse mange-til-mange eksempler](https://www.youtube.com/watch?v=fYxMZ7a-PuE)
 
 ## Torsdag
 JDBC og SQL. 
@@ -41,10 +41,6 @@ JDBC og SQL.
 ### Opgaver
 - Lav [Øvelse 1](exercises/biblioteket.md): Biblioteket
 - Lav [Øvelse 2](exercises/SQLex1.md): Classic Models
-
-### Resourcer
-- [Java project m prepared statements og transaction](resources/TestDB.zip)
-
 
 
 ### Oversigt over resourcer (til opslag og inspiration):  

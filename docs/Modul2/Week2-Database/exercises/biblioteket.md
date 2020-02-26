@@ -25,7 +25,12 @@ Dvs, at databasen på 3NF består af tabellerne:
 
 ## Brug databasen fra Java
 
-1. Lav et simpelt Java-projekt i IntelliJ (maven-projekt uden arketype) og lav en metode for hver af dine forespørgsler.
+1. Lav et simpelt Java-projekt i IntelliJ (maven-projekt uden arketype) og lav en metode for hver af dine forespørgsler (ovenfor). Brug en main metode til at teste dine mappers.
+2. Lav en metode, som kan indsætte en låner
+3. Lav en metode, som kan oprette et udlån af en bog
+4. Lav en metode, som kan ændre navnet på en låner
+5. Lav en metode, som kan sørge for at registrere at en bog er afleveret. Dvs, fjerne et udlån.
+
 
 ### Eksempel på connector
 
