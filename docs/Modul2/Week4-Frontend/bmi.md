@@ -25,6 +25,8 @@ Når man trykker på en beregningsknap, skal parametrene sendes til en servlet, 
 | Over 30 | Svært overvægtig |
 
 
+## Plan
+
 1. Lav en hurtig mockup i Adobe XD, som viser hvordan websiderne skal se ud. Tænk gerne på at anvende Bootstrap design. Der skal være en fælles header og footer på alle siderne
 2. Lav html og css, som præcis ligner din mockup. 
 3. Start et nyt webprojekt op med vores [Command-Pattern skabelon](https://github.com/raakostOnCph/Projektskabelon)
