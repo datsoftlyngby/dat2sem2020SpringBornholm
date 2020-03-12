@@ -19,7 +19,7 @@
            <img src="img/my_image.jpg"/>
            <a href="">Click me please</a>
            <hr>
-           <form action="" method="">
+           <form action=ServerControl"" method="">
                <input type="text" name="username"/>
                <input type="text" name="password"/>
                <input type="submit" value="Send til server">

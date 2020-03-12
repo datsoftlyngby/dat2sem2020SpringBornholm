@@ -4,7 +4,7 @@
 
 ## Baggrund
 
-Vi har landet en vigtig opgave fra Olsker Cupcakes. Det er endnu et dybdeøkologisk iværksættereventyr fra Bornholm, som har ramt den helt rigtige opskrift. Et par hipstere fra København har været forbi bageriet, og indsamlet nogle krav og lavet en [mockup](cupcakeshop.html). En mockup er en meget løs skitse, som viser hvordan det færdige website skal se ud. Det er selvfølgelig ikke alt som er med, og som er tænkt igennem, så det er vores opgave at stille spørgsmål til manglende funktionalitet, komme med forslag osv. 
+Vi har landet en vigtig opgave fra Olsker Cupcakes. Det er endnu et dybdeøkologisk iværksættereventyr fra Bornholm, som har ramt den helt rigtige opskrift. Et par hipstere fra København har været forbi bageriet, og indsamlet nogle krav og lavet en halvfærdig [mockup](cupcake_mock.png) af en tænkt forside. En mockup er en meget løs skitse, som viser hvordan det færdige website skal se ud. Det er selvfølgelig ikke alt som er med, og som er tænkt igennem, så det er vores opgave at stille spørgsmål til manglende funktionalitet, komme med forslag osv. 
 
 Når man som leverandør skal løse sådan en opgave, er det godt at dele opgaven op i små etaper. Så tænk fra starten over hvor lidt vi kan lave for at få den første prototype i luften. Med andre ord: vi skal ikke lade os forblænde af hipsternes farver og striber og mange funktionaliteter. Vi æder elefanten lidt ad gangen.
 
@@ -14,13 +14,13 @@ Det første kundemøde mundede ud i en række såkaldte user-stories. De beskriv
 
 **US-1:** Som kunde kan jeg bestille og betale cupcakes med en valgfri bund og top, sådan at jeg senere kan køre forbi butikken i Olsker og hente min ordre.
 
-**US-2** Som kunde kan jeg oprette en konto for at kunne betale og gemme en en ordre.
+**US-2** Som kunde kan jeg oprette en konto/profil for at kunne betale og gemme en en ordre.
 
 **US-3:** Som administrator kan jeg indsætte beløb på en kundes konto direkte i MySql, så en kunde kan betale for sine ordrer.
 
 **US-4:** Som kunde kan jeg se mine valgte ordrelinier i en indkøbskurv, så jeg kan se den samlede pris.
 
-**US-5:** Som kunde eller administrator kan jeg logge på systemet med email og kodeord. Når jeg er logget på, skal jeg kunne min email på hver side (evt. i topmenuen).
+**US-5:** Som kunde eller administrator kan jeg logge på systemet med email og kodeord. Når jeg er logget på, skal jeg kunne min email på hver side (evt. i topmenuen, som vist på mockup'en).
 
 **US-6:** Som administrator kan jeg se alle ordrer i systemet, så jeg kan se hvad der er blevet bestilt.
 
@@ -30,31 +30,33 @@ Det første kundemøde mundede ud i en række såkaldte user-stories. De beskriv
 
 **US-9:** Som administrator kan jeg fjerne en ordre, så systemet ikke kommer til at indeholde udgyldige ordrer. F.eks. hvis kunden aldrig har betalt.
 
-
-### Mockup
-- [Mockup](cupcakeshop.html). Klik og naviger rundt i mockup'en
-- [Draw IO kildetekst](cupcakeshop.xml). Denne fil kan åbnes i [draw.io](http://draw.io)
-
 ## Ikke-funktionelle krav
-1. Ordrer, kunder og øvrige data skal gemmes i en database.
-2. Databasen skal normaliseres på 3. normalform.
-3. Kildekoden skal deles på GitHub.
-4. Databasen skal ligge på Digital Ocean
-5. Det færdige produkt skal udvikles i Java, MySql, HTML, CSS, Twitter Bootstrap og køre på en Tomcat webcontainer.
-6. Det færdige produkt skal i sidste ende køre på en Droplet hos Digital Ocean
+
+2. Der laves en mockup i Adobe XD, som viser de websider den færdige løsning kommer til at bestå af.
+3. Ordrer, kunder og øvrige data skal gemmes i en database.
+4. Databasen skal normaliseres på 3. normalform.
+5. Kildekoden skal deles på GitHub.
+6. Det færdige produkt skal udvikles i Java, MySql, HTML, CSS, Twitter Bootstrap og køre på en Tomcat webcontainer.
+7. Det færdige produkt skal i sidste ende køre på en Droplet hos Digital Ocean
+8. Løsningen skal udvikles med udgangspunkt i "[Kaspers Command-Pattern skabelon](https://github.com/raakostOnCph/Projektskabelon)"
+
 
 ## Deliveries (det som skal leveres)
 1. Et EER diagram over databasen.
 2. Et kørende website, som løser Olsker Cupcakes behov. Websitet skal køre på en droplet hos Digital Ocean, så vi kan sende et link til kunden til gennemsyn.
-3. Hver user story implementeres en ad gangen. Kunden vil som minimum se til og med US-6. 
-4. Når de første 6 user-stories er implementeret, tager I resten en ad gangen og ser hvor langt I når. 
+3. Hver user story implementeres en ad gangen. Kunden vil som minimum se en løsning på de første seks.
+4. Når de første 6 user-stories er implementeret, tager I resten en ad gangen og ser hvor langt I når.
+5. Der løber flere krav på senere på måneden i form af en lille rapport og anden teknisk dokumentation. Det optimale ville være hvis I er færdige med at kode webshoppen den 22. marts og så bruger den sidste uge på dokumentationen.
+
+## Aflevering af opgaven (deadline og links)
+1. Opgaven skal laves i grupper med 4 personer i hver.
+2. Deadline for indlevering af kode og rapport er **søndag den 29. marts kl. 23.55**. Der afleveres et link til GitHub, hvor begge dele skal forefindes. Rapporten skal afleveres i pdf-format.
 
 ## Ressourcer
 
 #### UI stuff
 
-- [Mockup](cupcakeshop.html)
-- [Draw IO kildetekst](cupcakeshop.xml)
+- [Mockup](cupcake_mock.png). Det er desværre kun forsiden vi har fået udleveret og det er okay at ændre layoutet.
 - [Headergrafik](olskercupcakes.png)
 
 #### The Bottoms 

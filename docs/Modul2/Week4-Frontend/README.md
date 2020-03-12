@@ -1,90 +1,57 @@
-# Webprogrammering frontend.
+# Webprogrammering frontend
 
-### Frontend betyder det der sendes til browseren
+[Admin info om ugen](admin.md)
 
-HTML sider bliver genereret på Tomcat ved hjælp af JSP filer.   
-JSP er en template engine der erstatter brugen af servletter til at danne HTML til brugeren. Med JSP får vi en java fil (Under overfladen en servlet) som vi kan skrive i som om vi skrev HTML med noget indlejret java. På Tomcat webserveren omdannes JSP til HTML, som  bliver sendt via internettet til brugerens browser.  
-Browseren indlæser html siden og renderer et visuelt billede til brugeren (Det vi kalder en webside/web page).
+### Ugens resultat
 
-![](img/jspcycle.png)
+Efter denne uge har I været igennem følgende: 
 
-**Vi skal arbejde med følgende emner:**
-
-1. JSP sider og HTML - Dynamiske og statiske sider
-2. HTML komponenter (Form etc.)
-3. Styling med CSS (Framework som bootstrap)
+1. Introduktion til UX/UI og mockups
+2. Generering af dynamiske HTML sider med JSP
+2. JSP basiselementer, herunder scriptlet kode, jstl og expression language
+3. Servlet-JSP og flerlagsarkitektur
 
 
 ### Oversigt over ugen:  
 
 | Dag     | Emne                                  |
 | ------- | ------------------------------------- |
-| Mandag  | Klasseundervisning kl. 9.00           |
-| Tirsdag | Online møde kl. 14.00 - 15.00         |
-| Onsdag  | Arbejd videre Cupcake projektet |
-| Torsdag | Klasseundervisning kl. 9.30                |
-| Fredag  | Onlinemøde kl. 11.00 - 12.00 |
+| Mandag  | Feedback fra sidste uge og forberedelse til tirsdag |
+| Tirsdag | Undervisning                          |
+| Onsdag  |                           |
+| Torsdag | Undervisning             |
+| Fredag  | Opgave / Cupcake projekt               |
 
 
+## Frontend betyder det der sendes til browseren
 
-## Olsker Cupcakeopgave
-De næste to uger skal vi udvikle en lille webshop. For at kunne løse opgaven skal vi først kigge på front-end delen af webstakken.
-[Opgavebeskrivelse](cupcake/cupcake.md). Det gør vi først og fremmest mandag, men også resten af ugen.
+HTML sider bliver genereret på Tomcat webserveren ved hjælp af JSP filer.<br>   
+JSP er en template engine der erstatter brugen af servletter til at danne HTML til brugeren. Med JSP får vi en Java fil (under overfladen en servlet), som vi kan skrive i, som om vi skrev HTML med noget indlejret Java. På Tomcat omdannes JSP koden til HTML, som  bliver sendt via internettet til brugerens browser.  
+Browseren indlæser HTML siden og renderer et visuelt billede til brugeren (Det vi kalder en webside/web page).
 
-### Oversigt over mandagen:  
+![](img/jspcycle.jpg)
+
+
+### Øvelse
+
+[BMI opgave](bmi.md)
+
+### Cupcake projekt (sættes i gang onsdag)
+
+Her kan du læse [projektbeskrivelsen](cupcake/cupcake.md).
+
+
+### Oversigt over ressourcer:  
 
 | Emne    |Kort version| Lang version   |
 | ----------------- | ------------ | -------- |
-| 1. HTML |[HTML template](sub/htmltemplate.md)| [HTML Quick guide](https://www.nobledesktop.com/html-quick-guide)  |  
-| 2. JSP |[JSP basic](sub/jsp.md)| [Dynamiske sider med JSP](https://www.tutorialspoint.com/jsp/index.htm) |
-| 3. Styling og DOM manipulation med CSS |[CSS template](sub/css.md)| [CSS tutorial (første 13 menu punkter)](https://www.w3schools.com/css/css_intro.asp), |
-| 4. Layout med CSS  |[Layout template](sub/layout.md)| [Box Model](https://www.w3schools.com/css/css_boxmodel.asp), [Tables](https://www.w3schools.com/css/css_table.asp), [Forms](https://www.w3schools.com/css/css_form.asp), [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp), [Navigation bar](https://www.w3schools.com/css/css_navbar.asp) |
-| 5. At bruge et library: Bootstrap |[Bootstrap example](sub/bootstrap.md)| [Bootstrap tutorial](https://www.w3schools.com/bootstrap/), [Bootstrap templates](https://startbootstrap.com/template-categories/all/), [bootsnipp for små codestykker til design](https://bootsnipp.com/) |
+| 1. HTML |[HTML template](htmltemplate.md)| [HTML Quick guide](https://www.nobledesktop.com/html-quick-guide)  |  
+| 2. JSP |[JSP basic](jsp.md)| [Dynamiske sider med JSP](https://www.tutorialspoint.com/jsp/index.htm) |
+| 3. JSP |[Standard Tag Library (JSTL Core Tags)](https://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm)| [JSTL core](https://docs.oracle.com/cd/E19159-01/819-3669/bnakc/index.html) |
+| 4. MVC pattern | [Pattern for struktur i præsentationslag](mvc.md) | |
+| 5. JUnit test | [JUnit Cookbook](https://junit.org/junit4/cookbook.html)|[JUnit Developer Guide](https://www.javaguides.net/p/junit-4.html) |
+|6. Test case teknikker |[Boundary Value Analysis & Equivalence Partitioning](https://www.guru99.com/equivalence-partitioning-boundary-value-analysis.html) |
+| Adober XD | [Expand your design skills to include UX and UI](https://www.linkedin.com/learning/adobe-xd-for-designers/expand-your-design-skills-to-include-ux-and-ui?u=57077785) | Denne video varer en time og 37 minutter og er en grundigere introduktion til Adobe XD. I videoen vises nogle tricks, som forudsætter, at man har en fuld licens til Adobe Cloud. Det har I ikke, så de dele skal I bare se hurtigt igennem eller springe over. Det drejer sig primært om brug af såkaldte "Assets" fra andre Adobe programmer. Det er slet ikke noget vi har brug for. |
 
 
 
-
-### Gennemgang i klassen
-
-1. Recap på ugen der er gået: Cup cake backend: 
-    - Tegn E/R diagram
-    - Tegn Arkitektur med Data og præsentationslag
-    - Vis eksempel kode
-      - Opret db fra model (address has person)
-      - Lav DataMapper: [gist here](https://gist.github.com/Thomas-Hartmann/e477109c76ce9ec7e2aeb0b3c4a1bf75)
-      - Lav Frontcontroller [gist here](https://gist.github.com/Thomas-Hartmann/f18615edd8e7c7c685921e7217680f8c)
-      - Lav view med JSP [gist shows how to use data from the servlet forwarded request object](https://gist.github.com/Thomas-Hartmann/f18615edd8e7c7c685921e7217680f8c)
-      - Vis opsætning med ekstern css
-      - Og alternativet - opsætning med bootstrap
-2. Opsætning af projekt med statisk html, css/bootstrap
-3. Styling af font-family, div (border, width, height, padding, margin), links: horizontal, form, button, images, table, lists etc.
-4. Dynamisk genereret HTML vha. JSP
-5. **M-V-C**: Data Access - JSP - Servlet. Frontcontroller med hidden parameters og switch i servletten.
-6. Bootstrap: grid, form og table
-
-
-### Resultatet
-
-Efter denne uge har i været igennem følgende:
-
-1. I har lavet statiske html sider
-2. I har genereret dynamiske html sider med jsp
-3. I har arbejdet med styling af web sider både med rent CSS og med et framework som bootstrap. 
-
-
-#### Læringsmål
-
-Efter denne uge er det meningen at du kan:
-- Redegøre for hvad DOM er og bruge css til at Manipulere med DOMen. 
-- Bruge CSS til at Style HTML sider og lave et ordentligt layout til brugeren.
-- Bruge et bibliotek som bliver hentet ned fra en CDN server og bruge Bootstrap til at style og lave layout med.
-
-#### Erhvervskompetencer
-
-Når ugen er omme har du opnået følgende kompetencer:
-
-- Kunne CSS og Bootstrap til frontend programmering.
-- Kunne anvende externe biblioteker i frontend programmering.
-
-
- 
