@@ -44,7 +44,7 @@ Alle de centrale videoer til dette semester er samlet i dette [bibliotek](https:
 |          | **Modul 2** | **Webstack**                             ||
 |        9 | 25-02-2019| [Database del 1](Modul2/Week2-Database/) ||
 |          | 26-02-2019| [Database del 2](Modul2/Week2-Database/)  ||
-|       10 | 03-03-2019 | [Webprogrammering frontend del 1](Modul2/Week3-Frontend/)  | Online |
+|       10 | 03-03-2019 | [Webprogrammering frontend del 1](Modul2/Week4-Frontend/)  | Online |
 |          | 05-03-2019 |  [Webprogrammering backend del 2](Modul2/Week3-Backend/) |  |
 |       11 | 10-03-2019| [Webprogrammering backend del 1](Modul2/Week4-Backend) | |
 |          | 12-03-2019| [Webprogrammering frontend del 2](Modul2/Week4-Frontend) |Cupcake|

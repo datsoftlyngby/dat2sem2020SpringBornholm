@@ -59,6 +59,15 @@ Det første kundemøde mundede ud i en række såkaldte user-stories. De beskriv
 - [Mockup](cupcake_mock.png). Det er desværre kun forsiden vi har fået udleveret og det er okay at ændre layoutet.
 - [Headergrafik](olskercupcakes.png)
 
+#### Hjælp til databasen
+
+I lyset af Corona-situationen er her lidt hjælp til at få styr på databasen. Den er fundamentet for webshoppen, og skal derfor helst rammes nogenlunde rigtigt:
+
+- [Skitse til EER diagram](https://youtu.be/hFlPEh8AzHE) (9:40)
+- [Lær at bruge Workbench til at oprette databasen](https://youtu.be/HECajTKdt5M) (19:50)
+- [Brug af join og views](https://youtu.be/-YjkSdKYum0) (9:38)
+
+
 #### The Bottoms 
 
 |Bottom |Price|

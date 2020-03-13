@@ -33,4 +33,3 @@ Et UI-kit er nogle skabeloner, som andre har lavet i Adobe XD, som vi kan sakse 
 Denne video varer en time og 37 minutter og er en grundigere introduktion til Adobe XD end den jeg gav. I videoen vises nogle tricks, som forudsætter, at man har en fuld licens til Adobe Cloud. Det har I ikke, så de dele skal I bare se hurtigt igennem eller springe over. Det drejer sig primært om brug af såkaldte "Assets" fra andre Adobe programmer. Det er slet ikke noget vi har brug for.
 
 * [Expand your design skills to include UX and UI](https://www.linkedin.com/learning/adobe-xd-for-designers/expand-your-design-skills-to-include-ux-and-ui?u=57077785)
-z
