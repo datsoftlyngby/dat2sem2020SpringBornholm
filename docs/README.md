@@ -48,10 +48,10 @@ Alle de centrale videoer til dette semester er samlet i dette [bibliotek](https:
 |          | 05-03-2019 |  [Webprogrammering backend del 2](Modul2/Week3-Backend/) |  |
 |       11 | 10-03-2019| [Webprogrammering backend del 1](Modul2/Week4-Backend) | |
 |          | 12-03-2019| [Webprogrammering frontend del 2](Modul2/Week4-Frontend) |[Cupcake](Modul2/Week4-Frontend/Cupcake/cupcake.md)|
-|		  12| 17-03-2019| [Webstack (arkitektur og mønstre)](Modul3/) | [Cupcake](Modul2/Week4-Frontend/Cupcake/cupcake.md) |
-|		    | 19-03-2019| [Webstack (arkitektur og mønstre)](Modul3/) | [Cupcake](Modul2/Week4-Frontend/Cupcake/cupcake.md) |
-|      13  | 24-03-2019| [Systemudvikling, Inkl. Rapport 1](Modul2/Week5-Report/) |[Cupcake](Modul2/Week4-Frontend/Cupcake/cupcake.md) |
-|          | 29-03-2019| [Systemudvikling, Inkl. Rapport 1](Modul2/Week5-Report/) |[Cupcake](Modul2/Week4-Frontend/Cupcake/cupcake.md) afleveres|
+|		  12| 17-03-2019| [Webstack (arkitektur og mønstre)](Modul3/) | [Cupcake](Modul2/Week4-Frontend/cupcake/cupcake.md) |
+|		    | 19-03-2019| [Webstack (arkitektur og mønstre)](Modul3/) | [Cupcake](Modul2/Week4-Frontend/cupcake/cupcake.md) |
+|      13  | 24-03-2019| [Systemudvikling, Inkl. Rapport 1](Modul2/Week5-Report/) |[Cupcake](Modul2/Week4-Frontend/cupcake/cupcake.md) |
+|          | 29-03-2019| [Systemudvikling, Inkl. Rapport 1](Modul2/Week5-Report/) |[Cupcake](Modul2/Week4-Frontend/cupcake/cupcake.md) afleveres|
 |       14 | 31-04-2019| Fejlhåndtering og logging | | 
 |          | 02-04-2019   | Test og kvalitet  | |
 |   **15** |   | **Påskeferie** ||
