@@ -68,6 +68,11 @@ I lyset af Corona-situationen er her lidt hjælp til at få styr på databasen. 
 - [Brug af join og views](https://youtu.be/-YjkSdKYum0) (9:38)
 
 
+#### Hjælp til koden
+
+- [Persistens og scopes](https://youtu.be/YeFOBBad-Q0) (12:58)
+
+
 #### The Bottoms 
 
 |Bottom |Price|
