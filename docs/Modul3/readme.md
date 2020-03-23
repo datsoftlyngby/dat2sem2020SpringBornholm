@@ -25,10 +25,6 @@ Fredag | Onlinemøde kl. 11.00 - 12.00 med vejledning
 Søndag 31. marts | Aflevering af [opgave](LegoHus.md) på Moodle. Deadine kl. 23:55
 Mandag 1. april | [Peer review](PeerReview.md)
 
---------
-
-### [Individuel opgave (Legohus)](LegoHus.md)
-
 -----------
 
 # Vi er ikke de første...

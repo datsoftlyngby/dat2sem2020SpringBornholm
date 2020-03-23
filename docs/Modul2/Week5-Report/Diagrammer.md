@@ -1,7 +1,7 @@
 # Diagrammer på 2. semester
 Der er mange værktøjer til at tegne diagrammer. Denne note vil kort beskrive et af disse - et som egner sig godt til brug på git og github.
 
-Dog er det sådan, at der i MySQLWorkbench er et udemærket værktøj til at tegne ER diagrammer, så det vil jeg anbefale at man bruger.
+Dog er det sådan, at der i MySQLWorkbench er et udemærket værktøj til at tegne EER diagrammer, så det vil jeg anbefale at man bruger.
 
 ## PlantUML
 

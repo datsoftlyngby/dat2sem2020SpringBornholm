@@ -20,12 +20,10 @@ Når man arbejder professionelt kommer man løbende til at skifte projekt. Man k
 
 Dag | Emne
 ---|---
-Mandag | 09.30. Klasseundervisning og vejledning
-Tirsdag | 14.00 Online vejledning og undervisning
+Tirsdag | 09.00 - 11.00 Online undervisning (Jon)
 Onsdag | Selvstændigt arbejde
-Torsdag | 09.30. Klasseundervisning og vejledning
-Fredag |  14.00 Online vejledning og undervisning
-Søndag | Afleveringsfrist søndag d. kl. 23:59 for cupcake-projektet
+Torsdag | 09.00 - 11.00 Online undervisning
+Fredag |  Selvstændigt arbejde
 
 
 ### Materiale til ugen
@@ -36,34 +34,22 @@ Søndag | Afleveringsfrist søndag d. kl. 23:59 for cupcake-projektet
 * [Slides](Diagrams.pptx)
 
 
-### Review til tirsdag
+### Review til torsdag
 Til onsdags review skal alle grupper have færdiggjort følgende diagrammer over jeres løsning til cup-cake:
 
-* ER diagram over hvilke tabeller der er i databasen. Det centrale er hvilke tabeller der er, og hvilke relationer der er mellem disse tabeller samt hvordan de er lavet med fremmednøgler.
+* EER diagram over hvilke tabeller der er i databasen. Det centrale er hvilke tabeller der er, og hvilke relationer der er mellem disse tabeller samt hvordan de er lavet med fremmednøgler.
 * Et navigationsdiagram over hvilke sider I har lavet (eller planlagde at lave), og hvordan man som bruger kommer fra den ene side til den næste.
+* Et aktivitetsdiagram over US-1
 * Et sekvensdiagram der starter med at en bruger har valgt en cup-cake, og nu vil købe den.
 
 Desuden skal der vises en skabelon for rapporten der er bygget over standard-skabelonen.
 
-### Review til fredag
-
-### Grøn, Gul & Rød
-Der vil være forskel på hvor langt I er nået med koden afhængigt af om man er en grøn, gul, eller rød gruppe. Det betyder, at der vil være forskel i hvor store dele af systemet, der er beskrevet som "ikke implementeret men planlagt".
-
-Mht. rapporten, så er forventningerne som:
-
-Niveau | Beskrivelse
----|---
-Grøn | Det forventes at der afleveres en rapport søndag, der beskriver cup-cake systemet, og at der er udarbejdet et diagram med tilhørende forklaringer af hver slags. Det forventes at det er beskrevet hvilke dele der er implementeret. Vi gennemgår rapporten så langt I er nået.
-Gul | Det forventes at der er lavet javadoc for alle klasserne, der er brugt i et af de afleverede sekvens diagrammer.
-Rød | Det forventes at javadoc er lagt på github.
 
 ## Aflevering af cupcake projekt
-### [Aflever GitHub link til projekt på moodle](https://cphbusiness.mrooms.net/mod/assign/view.php?id=127667):
 
-* Have jeres kildetekst på github, så I kan give et link til jeres kode, så det er nemt at klone.
+* Kildeteksten skal ligge på github, så I kan give et link til jeres kode, så det er nemt at klone.
 * Have jeres løsning deployed på Digital Ocean sådan at I kan give et link til jeres program så man kan prøvekøre det.
-* Uploade en rapport over jeres program (rapporten skal ligge på github som pdf, men link til github skal afleveres på moodle)
+* Gem rapporten sammen med jeres projekt i pdf-format og push til Github
 
 
 

@@ -15,7 +15,7 @@ Place the files in the folder "target/site/apidocs".
 Notice, most of you will have the dist folder listed in your .gitignore file. This is the right thing - one should not have generated files under version control. 
 
 
-## (RED) How to put the javadoc online on github
+## How to put the javadoc online on github
 If you are interested in seeing your javadocs as part of the documents on github, here is what can be done. 
 
 Along with the normal files making up a project, it is possible to also have a number of static web-pages on github. There are called [_github pages_](https://pages.github.com).
