@@ -35,7 +35,7 @@ Fredag |  Selvstændigt arbejde
 
 
 ### Review til torsdag
-Til onsdags review skal alle grupper have færdiggjort følgende diagrammer over jeres løsning til cup-cake:
+Til torsdags-review skal alle grupper have færdiggjort følgende diagrammer over jeres løsning til cup-cake:
 
 * EER diagram over hvilke tabeller der er i databasen. Det centrale er hvilke tabeller der er, og hvilke relationer der er mellem disse tabeller samt hvordan de er lavet med fremmednøgler.
 * Et navigationsdiagram over hvilke sider I har lavet (eller planlagde at lave), og hvordan man som bruger kommer fra den ene side til den næste.
