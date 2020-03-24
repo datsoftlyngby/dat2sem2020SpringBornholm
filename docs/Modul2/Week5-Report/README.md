@@ -33,6 +33,97 @@ Fredag |  Selvstændigt arbejde
 * [Skabelon for en rapport](RapportSkabelon.md)
 * [Slides](Diagrams.pptx)
 
+### Tirsdag
+
+#### Navigationsdiagram
+
+![](img/bmi_nav.png)
+
+```plantuml
+@startuml
+
+Title BMI beregner
+
+state index.jsp
+state login.jsp
+
+note top of login.jsp
+Username and role
+stored in session
+end note
+
+[*] --> index.jsp
+index.jsp -right-> resultat.jsp: beregn
+resultat.jsp -left-> index.jsp: retur
+index.jsp --> login.jsp: log på
+login.jsp --> LoggedOn: log på  [ok]
+login.jsp --> login.jsp: log på [fejl]
+
+state LoggedOn {
+    state admin.jsp
+    state resultat.jsp
+    state kategorier.jsp
+    state retkategorier.jsp
+    [*]-->admin.jsp
+    admin.jsp --> kategorier.jsp: ret kategorier
+    kategorier.jsp --> admin.jsp: retur
+    kategorier.jsp --> retkategorier.jsp: ret
+    retkategorier.jsp --> kategorier.jsp: retur
+    kategorier.jsp --> kategorier.jsp: fjern
+    LoggedOn --> index.jsp: retur
+}
+@enduml
+```
+
+#### Sekvensdiagram
+
+![](img/bmi_sekvens_beregn.png)
+
+```plantuml
+@startuml
+
+autonumber
+Title Beregning af BMI
+actor bruger
+
+boundary index.jsp
+boundary resultat.jsp
+
+bruger -> index.jsp: start
+== Initialization ==
+box BmiUtil
+index.jsp -> Initializer: getSportList()
+Initializer --> index.jsp: ArrayList<Sport>
+end box
+== Beregn BMI ==
+box PresentationLayer
+control FrontController
+index.jsp -> FrontController: doPost()
+FrontController -> FrontController: processRequest()
+FrontController -> Command: from()
+Command --> FrontController: Resultat
+FrontController -> Resultat: execute()
+end box
+
+box LogicFacade
+Resultat -> LogicFacade: insertBmiItem()
+end box
+
+box DBAccess
+LogicFacade -> BmiMapper: insertBmiItem()
+end box
+
+database BmiDB
+BmiMapper -> BmiDB: executeQuery()
+BmiDB --> BmiMapper: OK
+BmiMapper --> LogicFacade: OK
+LogicFacade --> Resultat: OK
+Resultat --> FrontController: resultat
+FrontController --> resultat.jsp: forward()
+
+@enduml
+```
+
 
 ### Review til torsdag
 Til torsdags-review skal alle grupper have færdiggjort følgende diagrammer over jeres løsning til cup-cake:
