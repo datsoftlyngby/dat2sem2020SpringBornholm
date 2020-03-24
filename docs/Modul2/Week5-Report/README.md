@@ -35,6 +35,20 @@ Fredag |  Selvstændigt arbejde
 
 ### Tirsdag
 
+#### Gennemgang af rapportskabelon
+
+[Se video af gennemgang](https://youtu.be/NL82gvN4f_g) (20:54)
+
+## UML: Diagrammer
+
+| Emne   | Titel/video          | Indhold                  |
+| :----  | :----------    | :------------------------| 
+|1. UML intro|[Introduktion til UML-diagrammer](https://youtu.be/33tqtGXUdMo) (10:43)|En kort introduktion til UML diagrammer og deres anvendelse|
+|2. UML Navigationsdiagram|[Tilstands/navigationsdiagram](https://youtu.be/6O_Uvy_pjX8) (35:30)|UML anvendes til at illustrere navigationen på et website. Tegnes i hånden og kodes i PlantUML|
+|3. UML Sekvensdiagram|[Sekvensdiagram](https://youtu.be/AZt8Zo_5xto) (43:59)|PlantUML anvendes til at tegne et sekvensdiagram for Kaspers Command Pattern skabelon|
+| 4. UML Use Case diagram | [Use Case Diagram](https://youtu.be/qUqwOhx50Ds) (12:37) | Lær kunsten at designe Use Case Diagrammer sammen med en kunde |
+| 5. UML Domænemodel | [OOD Domænemodel](https://youtu.be/GqGL4X_-hW4) (16:31) | Lær den endnu finere kunst, at designe domænemodeller før der er kodet en linie endnu |
+
 #### Navigationsdiagram
 
 ![](img/bmi_nav.png)
