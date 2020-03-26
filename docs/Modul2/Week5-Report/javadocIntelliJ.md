@@ -4,7 +4,7 @@ Javadoc has been a part of the standard java toolbox since 1995, and has been us
 ## Video tutorials
 
 - [Opret JavaDoc kommentarer og generer dokumentation i IntelliJ](https://youtu.be/mG2ODoiMyxw) (12:15)
-- [Flyt JavaDoc til GitHub Pages]() ()
+- [Flyt JavaDoc til GitHub Pages](https://youtu.be/0ljFowHAJm4) (11:42)
 
 
 ## The simple version using IntelliJ
