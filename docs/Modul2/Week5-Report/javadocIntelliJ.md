@@ -1,6 +1,11 @@
 # How to use javadoc from IntelliJ
 Javadoc has been a part of the standard java toolbox since 1995, and has been used for all libraries since.
 
+## Video tutorials
+
+- [Opret JavaDoc kommentarer og generer dokumentation i IntelliJ](https://youtu.be/mG2ODoiMyxw) (12:15)
+- [Flyt JavaDoc til GitHub Pages]() ()
+
 
 ## The simple version using IntelliJ
 IntelliJ support javadoc without having to do any further installation.
