@@ -39,7 +39,9 @@ Fredag |  Selvstændigt arbejde
 
 [Se video af gennemgang](https://youtu.be/NL82gvN4f_g) (20:54)
 
-## UML: Diagrammer
+## UML: Diagrammer og objektorienteret design
+
+Her kan du lære lidt om UML, hvornår og hvordan man bruger hvilke diagrammer, og hvordan du tegner dem i PlantUML.
 
 | Emne   | Titel/video          | Indhold                  |
 | :----  | :----------    | :------------------------| 
@@ -47,7 +49,10 @@ Fredag |  Selvstændigt arbejde
 |2. UML Navigationsdiagram|[Tilstands/navigationsdiagram](https://youtu.be/6O_Uvy_pjX8) (35:30)|UML anvendes til at illustrere navigationen på et website. Tegnes i hånden og kodes i PlantUML|
 |3. UML Sekvensdiagram|[Sekvensdiagram](https://youtu.be/AZt8Zo_5xto) (43:59)|PlantUML anvendes til at tegne et sekvensdiagram for Kaspers Command Pattern skabelon|
 | 4. UML Use Case diagram | [Use Case Diagram](https://youtu.be/qUqwOhx50Ds) (12:37) | Lær kunsten at designe Use Case Diagrammer sammen med en kunde |
-| 5. UML Domænemodel | [OOD Domænemodel](https://youtu.be/GqGL4X_-hW4) (16:31) | Lær den endnu finere kunst, at designe domænemodeller før der er kodet en linie endnu |
+|5. UML Use Case diagram|[Tegn i PlantUML](https://youtu.be/q1R4kmMXhBE) (8:21)|Lær at tegne Use Case diagrammer i PlanUML|
+| 6. UML Domænemodel | [OOD Domænemodel](https://youtu.be/GqGL4X_-hW4) (16:31) | Lær den endnu finere kunst, at designe domænemodeller før der er kodet en linie endnu |
+|7. UML Domænemodel|[Tegn i PlantUML](https://youtu.be/IKpWXZmMass) (10:00)| Lær at tegne domænemodelleri PlantUML |
+|8. UML Aktivitetsdiagram|[Teori og PlanUML](https://youtu.be/aKASc_lcQ_0) (16:32)|Lær at tegne aktivitetsdiagrammer i PlanUML og forstå værdien af dem|
 
 #### Navigationsdiagram
 
