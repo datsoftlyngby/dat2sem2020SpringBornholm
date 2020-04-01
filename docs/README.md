@@ -52,8 +52,8 @@ Alle de centrale videoer til dette semester er samlet i dette [bibliotek](https:
 |		    | 19-03-2019| [Cupcake](Modul2/Week4-Frontend/cupcake/cupcake.md)| |
 |      13  | 24-03-2019| [Systemudvikling, Inkl. Rapport 1](Modul2/Week5-Report/) |[Cupcake](Modul2/Week4-Frontend/cupcake/cupcake.md) |
 |          | 29-03-2019| [Systemudvikling, Inkl. Rapport 1](Modul2/Week5-Report/) |[Cupcake](Modul2/Week4-Frontend/cupcake/cupcake.md) afleveres|
-|       14 | 31-04-2019| Fejlhåndtering og logging | | 
-|          | 02-04-2019   | Test og kvalitet  | |
+|       14 | 31-04-2019|  | | 
+|          | 02-04-2019   | [Prøveeksamen](Modul2/Week5-Report/TrialExam.md)  |
 |   **15** |   | **Påskeferie** ||
 
 Resten af skemaet følger i den kommende tid, men følger samme kadence.
