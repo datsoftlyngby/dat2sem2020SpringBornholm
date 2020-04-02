@@ -18,8 +18,8 @@ Prøveeksamen foregår torsdag den 2. april.
 
 |Gruppenavn	| Prøveeksamen | Link |
 | :----  | :----------     |		:----- |
-| East Coast Hustlers	 |Tor 13:00 - 13:45  | Jon: [Zoom-Link](https://cphbusiness.zoom.us/s/jonbertelsen) |
-| Rønne Rascals	 |Tor 13:45 - 14:15  | Jon: [Zoom-Link](https://cphbusiness.zoom.us/s/jonbertelsen) |
+| East Coast Hustlers	 |Tor 13:00 - 13:45  | Jon: [Zoom-Link](https://cphbusiness.zoom.us/my/jonbertelsen) |
+| Rønne Rascals	 |Tor 13:45 - 14:15  | Jon: [Zoom-Link](https://cphbusiness.zoom.us/my/jonbertelsen) |
 
 ## Afvikling af eksamen
 
