@@ -26,7 +26,7 @@ På den baggrund skal I lave:
 
 ## Præsentationen
   
-Torsag skal I præsentere jeres resultater for kunden. I vores tilfælde er det for klassen samt en underviser.
+Fredag skal I præsentere jeres resultater for kunden. I vores tilfælde er det for klassen samt en underviser.
 Husk at tilhørerne er godt inde i sagerne, så hvis det er jer der skal lande jobbet, så  må I hellere lægge jer i selen. I har ca. 30 minutter til præsentation og dialog med kunden og målet er at I får så meget information med jer tilbage, og at kunden får tillid til at I kan styre opgaven i mål. 
 
 I bestemmer selv hvilken form I bruger til præsentationen, men I kan f.eks. lave et par slides med Interessent-analysen og SWOT-analyserne og så **have nogle spørgsmål klar til kunden**, som I synes er vigtige for at I kan lave et godt stykke arbejde. Sørg for at alle gruppemedlemmer kommer på banen og husk også at præsentere jer selv. Sørg også for, at en fra gruppen tager notater.

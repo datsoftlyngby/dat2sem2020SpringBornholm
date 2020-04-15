@@ -4,16 +4,6 @@ Hvordan forstår vi virksomhedens udfordringer og dermed ser de muligheder, vi h
 
 Hvordan kan vi bedst muligt illustrere og kommunikere de tanker vi har om en mulig IT-løsning (med diagrammer og analyseværktøjer)
 
-### Oversigt over ugen:  
-
-| Dag     | Emne                                     |
-| ------- | ---------------------------------------- |
-| Mandag  | Klasseundervisning og arbejde med øvelser                      |
-| Tirsdag | Online møde kl. 13:00 - 14:00 |
-| Onsdag  | Selvstændig arbejde på Fog-case (user stories)           |
-| Torsdag | Review af use case diagrammer og user stories |
-| Fredag  | Selvstændigt arbejde (opsætning af projekt) |
-
 ### Ugens emner og ressourcer:  
 
 | Emne                                     | Ressourcer                               |
@@ -25,17 +15,13 @@ Hvordan kan vi bedst muligt illustrere og kommunikere de tanker vi har om en mul
 | Aktivitets diagram        | [Agile Modelling: Activity Diagram](http://agilemodeling.com/style/activityDiagram.htm), [Slides](SWD_Lektion8_ActivityDiagrams.pdf), [As-Is + ToBe + Was-Done](activitydiagrams.md) |
 
 ### Gennemgang i klassen
-1. Præsentation af Fog-case
-2. Dannelse af grupper til semesterprojekt
 3. Hvorfor og hvordan vi kan bruge SWOT-analyse til at forstå den situation vi står i - i forhold til opgaven?
 4. Brug af Use Case diagrammer og interessentanalyse til at belyse problem-domænet og afklaring af kravsspecifikation.
 5. Brug af [aktivitetsdiagrammer](SWD_Lektion8_ActivityDiagrams.pdf)
-5. Øvelserne til tirsdag og torsdag
-- Samlet [projektbeskrivelse](Modul5/projekt/ProjektOpgave2019f.md) for **Fog Trælast og Byggecenter**.
 
 
 ### Øvelser til tirsdag
-- [Øvelse 1 med SWOT (for gruppen)](cphbusinessSWOT.md)
+
 - [Øvelse 2 med SWOT (for Fog)](fogcase.md). Her begynder den indledende analyse af vores Fog-case.
 - Lav et aktivitetsdiagram over den nuværende arbejdsgang i Fogh (As-Is)
 - Lav et modificeret diagram over hvordan det kunne blive (To-Be)
