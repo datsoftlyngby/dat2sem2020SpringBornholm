@@ -85,112 +85,78 @@ I får nok ikke brug for ret meget mere i denne omgang, men I kan læse mere om 
 
 [Dannebrog lavet om til abstrakt maleri](svgdemo.html)
 
-## Miniøvelse i SVG  
+## Øvelse 1:  
 Lav det danske flag ovenfor om til først det svenske flag:  
 ![](img/swedish.png)     
 og så til 4 cirkler i en box a la:   
-![](img/circles.png)   
+![](img/circles.png)    
 
-## SVG generering til JSP side
-En god måde at genere disse SVG tegninger dynamisk, er ved at gøre det, som vi også laver html tabeller i java koden, nemlig at man bruger en java metode til at generere en SVG string.
+## Øvelse 2: Tegn en simpel carport set fra oven
 
-I kan se et eksempel (der tegner væggen i et lego hus) som viser hvordan det kan struktureres. [Det ligger på github](https://github.com/DAT2Sem2017E/Modul5LegoSVG).
+## Del A: Grundstruktur
+Lav en statisk hjemmeside med et billede at en minimal carport set fra oven. Øvelsen kan bruges som første skridt til en tegning i stil med den i dokumentet [6,0 X 7,8 MTR](https://datsoftlyngby.github.io/dat2sem2019SpringBornholm/Modul5/projekt/CP01%20DUR%20vejledning%202016.pdf) side 5. Tegningen kunne f.eks. se ca. således ud:
 
-Der er to centrale elementer i løsningen. Lad os lige starte med jsp siden. Vi  springer servlets over, men sætter i stedet her bare 3 variabler direkte:
+<figure>
+<img width="75%" src="img/simpelCarport.png"/> 
+<figcaption>Figure 1: Simpel carport</figcaption>
+</figure>
 
-```
-<% int length = 15; // get this from a request attribute
-   int width = 9; // get this from a request attribute
-   int height = 9; // ditto
-%>
-```
-I en fuld løsning ville første linje sikkert have set sådan ud:
-
-```java
-int length = Integer.parseInt( (String)request.getAttribute("length") );
-```
-
-Nede i kroppen laver vi en SVG kanvas der er 75% af bredden af skærmen. Hvis man ikke angiver højden regner den det ud fra proportionerne på viewport.x
-
-```html
-<svg width="75%"
-     viewBox="0 0 <%=length*100+1%> <%=height*100+1%>">
-	<%= SVGUtil.house(length , width, height) %>
-</svg>
-```
-
-jsp kommandoen `<%=` evaluerer den java kode der er mellem `<%=` og `%>` og indsætter resultatet direkte. 
-
-Selve metoden `house` tegner blot et antal lag svarende til hvor høj væggen skal være. Den benytter sig af en del hjælpemetoder til at få lagt brikkerne varieret og overlappende. Man må i sådanne situationer finde en balance mellem "kryptisk kort kode", lange metoder, og mange metoder. Det er ikke sikkert din balance vil være den samme som den der findes i dette eksempel.
-
-### Selve tegningen af en brik
-Der er en metode, der tegner en brik. Koden er overkommenteret, så kik der.
-
-Specielt det med tekster kan være noget pillearbejde. Se ressource listen ovenfor for nærmere info. Specielt har [denne side meget detaileret info om](http://apike.ca/prog_svg_text_style.html#) hvordan man placerer tekst i forhold til koordinater.
-
-## Andre tilgange
-Det eneste fornuftige alternativ til at generere SVG som beskrevet ovenfor er at benytte sig af tegning i JavaScript. Her vil jeg anbefale at man kikker på [w3schools afsnit om canvas](https://www.w3schools.com/graphics/canvas_intro.asp). 
-
-# Workshop øvelse
-
-## Del A
-Lav en statisk hjemmeside med et billede at en minimal carport set fra oven. Øvelsen kan bruges som første skridt til en tegning i stil med den i dokumentet [6,0 X 7,8 MTR](https://datsoftlyngby.github.io/dat2sem2019SpringBornholm/Modul5/projekt/CP01%20DUR%20vejledning%202016.pdf) side 5.
-
-1. Undlad at gøre plads til tallene langs siderne i første omgang. Men tegn en ramme rundt langs hele kanten af billedet. Rammen skal være 6 x 7,8 meter. Denne øvelse handler om at lave din første SVG tegning.
+1. Undlad at gøre plads til tallene langs siderne i første omgang. Men tegn en ramme rundt langs hele kanten af billedet. Rammen skal være 6 x 7,8 meter. Denne øvelse handler om at lave SIMPEL SVG tegning.
 2. Tegn de to ende-spær som er helt ude ved kanten.
 3. Tegn de to remme - placer dem rigtigt i forhold til rammen.
 4. Tegn krydset - se om du kan få det stiplet.
+5. Lav stolperne.
 
-## Del B
-Herefter skal vi se, om vi kan få de to størrelses-orden streger på. Her skal vi benytte os af et trick, nemlig at man kan tage en tegning og gøre den til en del-tegning. Vi får desuden brug for at tegne pile. 
+## Del B: Med måleangivelser (pile og cm-mål)
+Nu skal vi se, om vi kan få de to størrelses-orden streger på. Her skal vi benytte os af et trick, nemlig at man kan tage en tegning og gøre den til en del-tegning. Vi får desuden brug for at tegne pile. 
 
 ### Pile først.
 
+Dette er overraskende finurligt da SVG er lavet sådan, at der kan bruges alle mulige former for pilehoveder (markers). Faktisk skal man selv tegne pilehovederne - de er små SVG tegninger i sig selv.
+
 <SVG width="25%" viewBox="0 0 150 40">
-<defs>
-    <marker id="beginArrow" 
-    	markerWidth="9" markerHeight="9" 
-    	refX="0" refY="4" 
-    	orient="auto">
-        <path d="M0,4 L8,0 L8,8 L0,4" style="fill: #000000;" />
-    </marker>
-    <marker id="endArrow" 
-    	markerWidth="9" markerHeight="9" 
-    	refX="8" refY="4" 
-    	orient="auto">
-        <path d="M0,0 L8,4 L0,8 L0,0" style="fill: #000000;" />
-    </marker>
-</defs>
+ <defs>
+        <marker id="beginArrow" markerWidth="12" markerHeight="12" refX="0" refY="6" 				orient="auto">
+            	<path d="M0,6 L12,0 L12,12 L0,6" style="fill: #000000;" />
+        </marker>
+        <marker id="endArrow" markerWidth="12" markerHeight="12" refX="12" refY="6" 			orient="auto">
+            <path d="M0,0 L12,6 L0,12 L0,0 " style="fill: #000000;" />
+        </marker>
+ </defs>
 <line x1="130"  y1="10" x2="12"   y2="35" 
 	style="stroke:#006600;
 	marker-start: url(#beginArrow);
    marker-end: url(#endArrow);"/>
 </SVG>
 
-Dette er overraskende finurligt da SVG er lavet sådan, at der kan bruges alle mulige former for pilehoveder (markers). Faktisk skal man selv tegne pilehovederne - de er små SVG tegninger i sig selv.
-
 Pilen er lavet med følgende SVG:
 
 ```xml
 <SVG width="25%" viewBox="0 0 150 40">
 <defs>
-    <marker id="beginArrow" 
-    	markerWidth="9" markerHeight="9" 
-    	refX="0" refY="4" 
-    	orient="auto">
-        <path d="M0,4 L8,0 L8,8 L0,4" style="fill: #000000s;" />
-    </marker>
-    <marker id="endArrow" 
-    	markerWidth="9" markerHeight="9" 
-    	refX="8" refY="4" 
-    	orient="auto">
-        <path d="M0,0 L8,4 L0,8 L0,0" style="fill: #000000;" />
-    </marker>
+ <marker 
+ 	id="beginArrow" 
+ 	markerWidth="12" 
+ 	markerHeight="12" 
+ 	refX="0" 
+ 	refY="6" 
+ 	orient="auto">
+   <path d="M0,6 L12,0 L12,12 L0,6" style="fill: #000000;" />
+ </marker>
+ <marker 
+ 	id="endArrow" 
+ 	markerWidth="12" 
+ 	markerHeight="12" 
+ 	refX="12" 
+ 	refY="6" 
+ 	orient="auto">
+   <path d="M0,0 L12,6 L0,12 L0,0 " style="fill: #000000;" />
+ </marker>
 </defs>
 <line x1="130"  y1="10" x2="12"   y2="35" 
-	style="stroke:#006600;
+	style="stroke: #006600;
 	marker-start: url(#beginArrow);
-   marker-end: url(#endArrow);"/>
+	marker-end: url(#endArrow);"/>
 </SVG>
 ```      
 
@@ -203,44 +169,85 @@ Vi vil anbefale, at I bare kopierer de to defs til jeres projekt og bruger dem.
 Men her er forklaringen.
 
 ```xml
-<marker id="beginArrow" 
-    markerWidth="9" markerWidth ="9" 
-    refX="0" refY="4" 
-    orient="auto">
-    <path d="M0,4 L8,0 L8,8 L0,4" style="fill: #000000;" />
-</marker>
+ <marker 
+ 	id="beginArrow" 
+ 	markerWidth="12" 
+ 	markerHeight="12" 
+ 	refX="0" 
+ 	refY="6" 
+ 	orient="auto">
+   <path d="M0,6 L12,0 L12,12 L0,6" style="fill: #000000;" />
+ </marker>
 ```    
 
 `id` er det navn vi bruger nede i linjen til at sige hvilken type pil vi vil have. `markerWidth ` og `markerHeight` angiver størrelsen på pilen. Dette er en ret lille pil.
-Selve pilen er tegnet med en `path` kommando, der siger at først flytter vi os til (0,4) (M for move), så tegner vi en trekant ved at lave tre linjestykker (L for linje), at vi skal fylde figuren med sort (#000000). Denne lille tegning viser hvordan de to pile er lavet. Den røde er start pilen, den blå er slut pilen.
+Selve pilen er tegnet med en `path` kommando, der siger at først flytter vi os til (0,6) (M for move), så tegner vi en trekant ved at lave tre linjestykker (L for linje), at vi skal fylde figuren med sort (#000000). Denne lille tegning viser hvordan de to pile er lavet. 
 
-<img width="25%" src="img/SVGMarkerPile.jpg"/>
+<figure>
+<img width="50%" src="img/svg_arrows.jpg"/> 
+<figcaption>Figur 2: Definition af pilehoveder i SVG-path</figcaption>
+</figure>
 
 Så er der `orient="auto"` som magisk siger at pilen skal følge den linje vi laver. Endelig er der `refX` og `refY` som siger hvilket punkt i pilen der skal kobles på linjens endestykke. Jeg har her valgt pilens top, så pilen ikke rager ud over linjen.
 
 
 ### Del-billeder
 
-Lige som man kan lave grundelementer som linjer, rektangler mv, så kan man også placere et andet SVG element inde på en eksisterende kanvas. I legohus eksemplet er der en JSP side som tegner huset sådan her:
+Lige som man kan lave grundelementer som linjer, rektangler mv, så kan man også placere et andet SVG element inde på en eksisterende kanvas. 
 
-<img width="75%" src="img/LegoHouseWithText.jpg"/>
+Med udgangspunkt i tegningen af den flade garage, skal vi tilføje to pile og to labels der viser længde og bredde på carporten:
 
+<figure>
+<img width="75%" src="img/simpelCarportWithArrows.png" caption="Figur 2" />
+<figcaption>Figur 3: Simpel carport med måleangivelser</figcaption>
+</figure>
 
 ```XML
-<svg width="75%" 
-         viewBox="0 0 <%=length*100 + 200%> <%=height*100 + 200%>">
-    <svg x="200" y="0" width="<%=length*100%>" height="<%=height*100%>" 
-        viewBox="0 0 <%=length * 100 + 1%> <%=height * 100 + 1%>">
-        <%= SVGUtil.house( length, width, height ) %>
-    </svg>
-    ... Drawing lines with labels
-</svg>
+<svg version="1.1" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	height="100%" viewBox="0 0 855 690" 
+	preserveAspectRatio="xMinYMin">
+	
+	<svg version="1.1" 
+		xmlns="http://www.w3.org/2000/svg" 
+		xmlns:xlink="http://www.w3.org/1999/xlink" 
+		x="75" 
+		y="10" 
+		width="800" 
+		height="600" 
+		viewBox="0 0 780 600" 
+		preserveAspectRatio="xMinYMin">
+		
+		..... Den indre tegning af den simple carport
+		
+		</svg>
+
+		..... Tegning af afstandsmål og angivelse af mål i cm
+	
+	
+/svg>
+```
+ 
+Det vigtigste er linje 14, hvor der laves en **viewBox** for den indre svg-tegning, sådan at alt det der tegnes, kan tegnes, som om hele det element ligger i 0,0, og ikke som det faktisk er tilfældet, i 75,10.
+
+
+## Tilbage til opgave B
+
+Tegn nu den simple carport i figur 3. Hint: Når du skal lave tekst, så brug SVG elementet `text` og transform-attributten til at rotere og translatere teksten. F.eks. således:
+
+```XML
+	<text style="text-anchor: middle" transform="translate(30,300) rotate(-90)">600 cm</text>
 ```
 
-Det vigtigste er linje 4 hvor der laves en viewBox for det indre svg, sådan at alt det der tegnes, kan tegnes som om hele det element ligger i 0,0, og ikke som det faktisk er tilvældet, i 200,0.
 
-Hele koden er i [samme projekt som tidligere](https://github.com/DAT2Sem2017E/Modul5LegoSVG), så kik der.
+## SVG generering til JSP side
 
-## Tilbage til Del B
+En god måde at genere disse SVG tegninger dynamisk, er ved at bygge en tekst streng i en Javametode, og så sende den til en jsp-side ved hjælp af request-objektet. Sammensætning af strings i Java er ineffektivt når det foregår mange gange, og med lange strenge, så derfor anbefales det at bruge [StringBuilder klassen](https://www.javatpoint.com/StringBuilder-class) og append-metoden.
 
-Med udgangspunkt i tegningen af den flade garage, lav to pile og to labels der viser længde og bredde på carporten.
+
+
+## Andre tilgange til at tegne på websider
+Det eneste fornuftige alternativ til at generere SVG som beskrevet ovenfor er at benytte sig af tegning i JavaScript. Her anbefales at se på [w3schools afsnit om canvas](https://www.w3schools.com/graphics/canvas_intro.asp). 
+
+

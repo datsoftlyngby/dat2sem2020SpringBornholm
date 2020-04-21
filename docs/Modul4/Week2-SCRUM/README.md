@@ -1,15 +1,6 @@
 # SCRUM 
 
-I denne uge fokuserer vi på vigtige værktøjer til projektstyring, så alle bliver klar til modul 5 og opstart af semester projektet.
-
-### Oversigt over ugen:  
-
-| Dag     | Emne                                     |
-| ------- | ---------- |
-| Mandag  | Undervisning i brug af SCRUM med [disse slides](Scrum.pdf) 
-| Tirsdag | Online møde kl. 14.00 - 15.00. Review af Legoopgave |
-| Torsdag | Fokus på teamsamarbejde og GIT-flows |
-| Fredag  | Introduktion af Fog opgaven |
+I denne uge fokuserer vi på vigtige værktøjer til projektstyring, så alle bliver klar til  semester projektet.
 
 ### Ugens emner:  
 
@@ -27,17 +18,28 @@ I denne uge fokuserer vi på vigtige værktøjer til projektstyring, så alle bl
 | Technical review                   |                                          |
 | Dokumentation                      |                                          |
 
-### Øvelser i klassen 1 time
+Se denne video, som sammenfatter de ovenstående begreber: [Intro til Scrum](https://youtu.be/Rhz84XgXxgM) (22:51)
+
+### Øvelser i klassen
 
 1. Download dette [Google Sheet](https://davidvujic.blogspot.com/2011/06/visa-vad-du-gor-eller-dude-wheres-my.html) og gør klar til at lave en product backlog.
 2. Baseret på den forståelse i har af cupcake opgaven opret omkring 10 user stories i regnearket.
 3. Prioritér user stories ved at sætte de vigtigste (størst 'business value') øverst.
 4. Estimér user stories. Story points: Målt i dage x personer. Dvs, at hvis I er 3 personer i et team, så har I 3 x 5 = 15 story points på en arbejdsuge at gøre godt med. Så hvis en opgave estimeres til at tage en dags arbejde for to personer, så svarer den pågældende user story til 2 story points. Man kan godt regne i halve story points.
 5. Opsæt 2 sprints af hver en uges varighed
-6. Opret et board i Trello og flyt user stories ind i første sprint svarende til hvad der kan nåes på 1 sprint.
+6. Opret jeres projekt i Taiga.io, lav et team og før jeres user stories ind i systemet.
 7. Lav tasks og alloker dem til bestemte medlemmer.
-8. Lav et burn down chart i Google Sheets, så fyld ind for den første uge.
 
+## Resten af semesteret
+I resten af projekt perioden frem til sommerferien vil hver uge have følgende mønster:
+
+|Dag|Formål|
+|---|---|
+|Workshop|Workshop med et emne der skal indarbejdes i Fog projektet|
+|Teknisk review| At få feedback på kode-delen, så den tekniske løsning lever op til pensum|
+|Sprint review| Demo-dag: Resultatet af ugens sprint vises frem til P.O.|
+|Sprint planning|Planlægning af næste spring og oprydning i backlog |
+|Sprint retrospektive| Teamet evaluerer det netop gennemførste spring og bliver klogere sammen |
 
 #### Læringsmål
 
@@ -47,14 +49,4 @@ I denne uge fokuserer vi på vigtige værktøjer til projektstyring, så alle bl
 #### Erhvervskompetencer
 
 - Blive kendt med SCRUM er en vigtig erhvervskompetence da SCRUM bruges i mange virksomheder.
-
-## Reviews resten af semesteret
-I resten af projekt perioden frem til sommerferien vil hver uge have følgende mønster:
-
-|Dag|Formål|
-|---|---|
-|Mandag|Workshop med et emne der skal indarbejdes i Fog projektet|
-|Tirsdag|Teknisk review med jeres tekniske vejleder |
-|Torsdag|Fortsættelse på workshop og generel opfølgning |
-|Fredag | P.O. møde / Sprint review|
 

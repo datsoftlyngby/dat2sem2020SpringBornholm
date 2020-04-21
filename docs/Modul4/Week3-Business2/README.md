@@ -20,13 +20,10 @@ Hvordan kan vi bedst muligt illustrere og kommunikere de tanker vi har om en mul
 5. Brug af [aktivitetsdiagrammer](SWD_Lektion8_ActivityDiagrams.pdf)
 
 
-### Øvelser til tirsdag
-
-- [Øvelse 2 med SWOT (for Fog)](fogcase.md). Her begynder den indledende analyse af vores Fog-case.
+### Øvelser
+- [Øvelse med SWOT (for Fog)](fogcase.md). Her begynder den indledende analyse af vores Fog-case.
 - Lav et aktivitetsdiagram over den nuværende arbejdsgang i Fogh (As-Is)
 - Lav et modificeret diagram over hvordan det kunne blive (To-Be)
-
-### Øvelser til torsdag (og til efter påske)
 - Lav et use case diagram over Fog bruger scenarierne (som en oversigt)
 - Lav user stories som funktionelle krav til Fog projektet fra kunden sæt dem i en backlog med estimater osv (i regneark)
 
