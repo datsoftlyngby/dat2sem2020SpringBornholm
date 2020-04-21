@@ -58,7 +58,7 @@ Alle de centrale videoer til dette semester er samlet i dette [bibliotek](https:
 |        16  | 14-04-2020   | Præsentation af [Projekt](Projekt/)  |[Carportprojekt](Projekt/)|
 |        16  | 15-04-2020   | [Forretningsaspekter og krav](Modul4/Week3-Business2)  |[Carportprojekt](Projekt/)|
 |        17  | 21-04-2020   | [Scrum og Userstories](Modul4/Week2-SCRUM)  |[Carportprojekt](Projekt/)|
-|        17  | 22-04-2020   | [SVG workshop](Modul5/Week2-SVG)  |[Carportprojekt](Projekt/)|
+|        17  | 22-04-2020   | [SVG workshop](Modul5/Week2-SVG/TegningSVG.md)  |[Carportprojekt](Projekt/)|
 
 
 Resten af skemaet følger i den kommende tid, men følger samme kadence.

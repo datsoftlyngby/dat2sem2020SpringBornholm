@@ -98,7 +98,7 @@ Lav en statisk hjemmeside med et billede at en minimal carport set fra oven. Øv
 
 <figure>
 <img width="75%" src="img/simpelCarport.png"/> 
-<figcaption>Figure 1: Simpel carport</figcaption>
+<figcaption>Figur 1: Simpel carport</figcaption>
 </figure>
 
 1. Undlad at gøre plads til tallene langs siderne i første omgang. Men tegn en ramme rundt langs hele kanten af billedet. Rammen skal være 6 x 7,8 meter. Denne øvelse handler om at lave SIMPEL SVG tegning.
