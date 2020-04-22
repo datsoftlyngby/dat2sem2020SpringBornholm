@@ -1,5 +1,19 @@
 # Tegning vha. SVG
 
+På grund af Corona-situationen er indholdet af dette emne gennemgået online og optaget på video:
+
+## Videoer med gennemgang af indholdet på denne side
+
+| Emne   | Titel/video          | Indhold                  |
+| :----  | :----------    | :------------------------| 
+|1. Intro | [Introduktion til SVG og vektorgrafik](https://youtu.be/B0DVyeJlW1o) (33:41)|Workshop om SVG, som er skræddersyet til 2. semester på datamatikerstudiet i Lyngby og på Bornholm foråret 2020.|
+|2. Simple tegninger | [Tegning af flag og simple elementer](https://youtu.be/NhMslvfIFlA) (23:08)|Kom i gang med at tegne. Rektangler og simple elementer.|
+|3. Øvelse| [Gennemgang af øvelse](https://youtu.be/eZMdzA83PEM) (13:35)|Se en løsning på tegning af svensk flag og cirkler. |
+|4. Carport I| [ Tegning af simpel carport](https://youtu.be/m9sbCQKcI3c) (7:20)|Forslag til hvordan man kan tegne en meget simpel carport. [GIST](https://gist.github.com/jonbertelsen/ee5f8f43a185edd5c332382be77a9b36)|
+|5. Carport II| [Indlejret tegning med målestok](https://youtu.be/iAAZSzzFxl8) (12:04)|Der tilføjes måleangivelser på carport-tegningen. [GIST](https://gist.github.com/jonbertelsen/64308f96e7f0ae7d33e45412f91240f9)|
+|6. Java/JSP| [SVG i Java webstack (dynamiske tegninger)](https://youtu.be/eLukJewGPEs) (9:24)|Forslag til hvordan man kan generere tegninger i Java backend og præsentere dem som SVG på JSP-sider. [GitHub Repo](https://github.com/jonbertelsen/svgdemo)|
+
+## SVG:
 
 HTML indholder nogle særlige tags der kan bruges til at lave tegninger. Et eksempel kunne være dette dannebrogsflag:
 
@@ -39,11 +53,13 @@ For at tegne med SVG (og de fleste andre systemer) er der mindst fire dele man s
 ## Ressourcer
 Der er flere steder på nettet, som giver tutorials i SVG. 
 
++ [Mozilla SVG Docs](https://developer.mozilla.org/en-US/docs/Web/SVG) er en god reference med mange detaljer.
 + [Jakob Jenkov](http://tutorials.jenkov.com/svg/index.html) har lavet en der kommer omkring det meste af hvad I får brug for.
 + Det at placere tekst helt perfekt er noget pille arbejde. 
 	+ Dels har [Jenkov](http://tutorials.jenkov.com/svg/text-element.html) noget. 
 	+ [Denne side er også god](http://apike.ca/prog_svg_text_style.html).
 + Artiklen ["SVG: A Scene Description Language"](http://math.hws.edu/graphicsbook/c2/s7.html) er en god og præcis introduktion til SVG. Der er også en god introduktion til hvordan man kan bruge vektorgrafik til modellering af sammensatte figurer (afsnit 2.7.4  Hierarchical Models().
+
 
 ## Forklaring på flagkoden
 I eksemplet med flaget ovenfor, så erklærer `SVG` elementet den kanvas vi har at skrive på. De fysiske dimensioner er 255 pixels bredt, og 210 højt (flagets proportioner er [standardiserede](http://mgg.dk/dkflag/proportioner.htm)).
