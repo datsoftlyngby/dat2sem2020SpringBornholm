@@ -1,66 +1,56 @@
-# Integrations test - database
-This note will explain how to test the database mappers. Much of the system stands on top of the database working correctly, so it is nice to be certain this works. And it is nice to be able to develop this layer independent of the other layers.
+# Integrationstest - database
+Denne note beskriver hvorledes vi kan teste vores data mapper klasser. Hele systemet afhænger af, at databasen fungerer korrekt, så det er vigtigt at tjekke at Java koden og databasen spiller sammen som forventet. Desuden vil det være rart at kunne udvikle datasource laget uafhængigt af de andre lag i systemet.
 
-### Principle of database testing
-Normally the mapper methods start out by requesting a database connection. The connection specify which database to use.
 
-The idea is to make a test database, and and give the mapper a connection which is the test database during testing. 
+### Hvad er en integrationstest?
+Der er ingen klar definition på hvad en integrationstest er, men vi kan vende den om, og sige, at det er *ikke* en unit test hvis (inspireret af Michael Feathers: *Working Effectively With Legacy Code*):
 
-We need to do the following steps:
-1. Make a test database
-2. Make it possible to trick the mappers to use an other connection
-3. Make test methods
+* den kommunikerer med databasen
+* den kommunikerer over netværket
+* den rører filsystemet
+* den ikke kan køre samtidig med enhver af dine andre unit tests
+* du har brug for at gøre specielle ting ved miljøet for at køre testen.
 
-## Sample code
-The [Login project](https://github.com/DAT2Sem2017E/Modul3LogInSample) has been extended with a test section which tests the UserMapper.
+### Principper for integrationstest med database
+Normalt starter mapper metoder med at bede om en databaseforbindelse. Forbindelsen specificerer, hvilken database, der skal anvendes.
 
-### Making a test database
-We need a copy of the database. In the test database there will be two tables for each table in the original database. One which is used for safekeeping of the test data, and one to be used during the tests.
+Idéen er at lave en TEST database (så vi ikke tester direkte på produktionsdatabasen), og give mapper'en en forbindelse til testdatabasen, som kan anvendes under test.  
 
-We will user the user login as the sample. The schema there is named `useradmin`, we will call the test schema `useradminTest`. I will create the test database on the same MySQLServer, but you could (and maybe should) use a different server.
+Dette involverer tre trin:
 
-This is the *one time setup* script:
+1. Opret en testdatabase
+2. Gør det muligt for mapper'en at bruge en anden forbindelse (vha. Dependency Injection). 
+3. Skriv test metoder
 
-```sql
--- There is a schema named "useradmin" with one table: "Users"
--- The test schema is named "useradminTest"
--- make a copy of the table
-CREATE TABLE useradminTest.Users LIKE useradmin.Users;
--- make an other copy, this time naming it UsersTest
-CREATE TABLE UsersTest LIKE useradminTest.Users;
-INSERT INTO `UsersTest` VALUES 
-    (1,'jens@somewhere.com','jensen','customer'),
-    (2,'ken@somewhere.com','kensen','customer'),
-    (3,'robin@somewhere.com','batman','employee'),
-    (4,'someone@nowhere.com','sesam','customer');
--- make a new user for the test database
-CREATE USER 'testinguser' IDENTIFIED BY 'try1try2tryAgain';
-GRANT ALL PRIVILEGES ON useradminTest.* TO 'testinguser';
-```
+## Eksempelkode
+[Login projekt](https://github.com/raakostOnCph/Projektskabelon) indeholder tests som tester en `UserMapper` klasse.
 
-### Making the mappers use a different connection
-Often there is a connection class which is somewhat similar to this (using a singleton)
+### Opret en testdatabase
+Vi har brug for en kopi af produktionsdatabasen uden data. Dvs, kun med tabelstrukturerne. Når man kører sine tests, starter hver unit- og integrationstest med at der fyldes friske data i testdatabasen, så vi ved hvilke rækker, der findes.
+
+Vi vil bruge *user login* som eksempel. Databaseskemaet hedder `useradmin`, og vi vil kalde testkopien for `useradmin_test`. Testdatabasen oprettes i eksemplet på samme MySQLServer (localhost).
+
+For hver gang en klasse skal testes, fjernes tabellerne i `useradmin_test` i @Before og der indsættes test-data. Obs! bemærk at store og små bogstaver i tabel-navne har betydning:
 
 ```java
-public class Connector {
-    private static final String url = "jdbc:mysql://46.101.253.149:3306/useradmin";
-    private static final String username = "...";
-    private static final String password = "...";
-
-    private static Connection singleton;
-
-    public static Connection connection() throws ClassNotFoundException, SQLException  {
-        if ( singleton == null ) {
-            Class.forName( "com.mysql.jdbc.Driver" );
-            singleton = DriverManager.getConnection( url, username, password );
+    @Before
+    public void beforeEachTest(){
+        try ( Statement stmt = testConnection.createStatement()) {
+            stmt.execute( "drop table if exists users" );
+            stmt.execute( "CREATE TABLE `users` LIKE useradmin.users;" );
+            stmt.execute("INSERT INTO users VALUES " +
+                    "(1,'jens@somewhere.com','jensen','customer')," +
+                    "(2,'ken@somewhere.com','kensen','customer')," +
+                    "(3,'robin@somewhere.com','batman','employee')," +
+                    "(4,'someone@nowhere.com','sesam','customer');");
+        } catch ( SQLException ex ) {
+            System.out.println( "Could not open connection to database: " + ex.getMessage() );
         }
-        return singleton;
     }
-
-}
 ```
 
-We can simply make a setter method which allow us to set the connection singleton, like this:
+### Lad mapper anvende en anden databaseforbindelse 
+I [Login projekt](https://github.com/raakostOnCph/Projektskabelon) start koden, er connection-klassen forberedt på, at man evt. kan skifte connection ved test. Det kan gøres via setter-metoden `setConnection`:
 
 ```java
 public static void setConnection(Connection con){
@@ -68,51 +58,40 @@ public static void setConnection(Connection con){
 }
 ```
 
-In the tests we will make a new connector which connects to the test database. 
-Then when the mapper requests the connection `Connection con = Connector.connection();` it will get the test database.
+I vores integrationstests kan vi oprette en ny connection, som forbinder til testdatabasen.
+Når mapper'en beder om forbindelse via get-metode `Connection con = Connector.connection();` vil den få en reference til testdatabasen.
 
 ### Initial test setup
-There is a special method annotation named `@Before` which can be used in connection with JUnit. That method is run just before any test method. Here we use it to reset the database table at each test.
+Der er en speciel metodeannotation kaldet `@BeforeClass` som kan bruges i JUnit4. Den metode køres før en klasse testes. Her bruger vi metoden til at lave vores connection.
 
-As usual, one should be careful not to make a new connection at each call, so we use the singular pattern to make sure we only open one connection.
+Som sædvanlig skal vi passe på ikke at oprette en ny forbindelse ved hvert kald, så vi implementerer singleton designmønstret for at sikre os vi kun har én åben forbindelse.
 
 ```java
 public class UserMapperTest {
     
 	private static Connection testConnection;
-   	private static String USER = "testinguser";
-	private static String USERPW = "try1try2tryAgain";
-	private static String DBNAME = "useradminTest";
-	private static String HOST = "46.101.253.149";
+    private static String USER = "root";
+    private static String USERPW = "root";
+    private static String DBNAME = "useradmin_test?serverTimezone=CET&useSSL=false";
+    private static String HOST = "localhost";
 
-    @Before
-    public void setUp() {
+    @BeforeClass
+    public static void  setUp() {
         try {
-            // awoid making a new connection for each test
+            // avoid making a new connection for each test
             if ( testConnection == null ) {
                 String url = String.format( "jdbc:mysql://%s:3306/%s", HOST, DBNAME );
-                Class.forName( "com.mysql.jdbc.Driver" );
+                Class.forName( "com.mysql.cj.jdbc.Driver" );
 
                 testConnection = DriverManager.getConnection( url, USER, USERPW );
                 // Make mappers use test 
                 Connector.setConnection( testConnection );
-            }
-            // reset test database
-            try ( Statement stmt = testConnection.createStatement() ) {
-                stmt.execute( "drop table if exists Users" );
-                stmt.execute( "create table Users like UsersTest" );
-                stmt.execute( "insert into Users select * from UsersTest" );
-            }
-
-        } catch ( ClassNotFoundException | SQLException ex ) {
-            testConnection = null;
-            System.out.println( "Could not open connection to database: " + ex.getMessage() );
-        }
-    }    
-     
-    
-}
+            } }
+         catch ( ClassNotFoundException | SQLException ex ) {
+             testConnection = null;
+             System.out.println("Could not open connection to database: " + ex.getMessage());
+         }
+    }
 ```
 
-### Some test examples
-There are some test examples in [the code on github](https://github.com/DAT2Sem2017E/Modul3LogInSample).
+Vi tillader os at bruge root, som bruger, da vi kører på localhost.
