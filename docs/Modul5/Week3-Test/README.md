@@ -122,8 +122,12 @@ Hvad kunne være værd at teste på carport projektet?
    2. Kan de ansatte hos Fog finde ud af at bruge systemet?
 
 5. Er vores kode skrevet, så vi automatisk kan teste den?
+6. Hvordan sikrer vi os en ensartet kodekvalitet?
+7. Hvordan sikrer vi os at vi ikke tjekker fejlagtig kode ind på vores master- eller developerbranch i GitHub?
 
 Prøv i jeres grupper at afgøre hvilken slags test og en lille strategi for hvordan hver test skal gennemføres. I må også meget gerne nævne flere ting I bør teste.
+
+Her er et [Worddokument](FogCarportTestSuite.docx) I kan downloade og udfylde.
 
 ### Unit test og integrationstest i Kaspers skabelon
 
