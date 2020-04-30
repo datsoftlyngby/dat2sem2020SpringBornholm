@@ -1,6 +1,20 @@
 # Test og kvalitet
 
-Hvordan sikrer I jer, at jeres kode virker?
+På grund af Corona-situationen er indholdet af dette emne gennemgået online og optaget på video:
+
+Videoer med gennemgang af indholdet på denne side:
+
+| Emne   | Titel/video          | Indhold                  |
+| :----  | :----------    | :------------------------| 
+|1. Intro|[Introduktion til test](https://youtu.be/UJAooq-_6s4) (8:24)| Om at udvikle det rigtige vs. udvikle rigtigt |
+|2. Teori|[Gennemgang af pensum](https://youtu.be/EAONJ7rbO0U) (39:12)| Et kig på 2. semesters emner om test |
+|3. Strategi|[Strategi for test af Fog Carport Projekt](https://youtu.be/kWuVSk4bcOE) (20:21)| Forslag til hvordan man kan angribe Fog opgaven |
+|4 Unit test|[Unit test af SVG klasse](https://youtu.be/M17rAmp103M) (20:30)| Kodegennemgang. [GitHub Repo](https://github.com/jonbertelsen/svgdemo) |
+|5. Integrationstest|[Integrationstest af datamapper](https://youtu.be/qkczZSwgZhE) (25:34)| Kodegennemgang. [GitHub Repo](https://github.com/jonbertelsen/svgdemo)|
+
+
+**Hvordan sikrer I jer, at jeres kode virker?**
+
 
 Formålet med undervisningen er at give en mere systematisk tilgang til test og sikring af kvalitet i sin kode.
 
@@ -86,10 +100,11 @@ Resultat kan ses i plugin fanebladet "Coverage" længst til højre i IntelliJ vi
 ## Agil test
 
 ### Agile testkvadranter
+
 I agile projekter benytter man gerne de agile testkvadranter til at gruppere de forskellige typer og niveauer af tests. Der er ingen bestemt rækkefølge mellem kvadranterne, men man begynder typisk i Q2.
 
-* Q1 og Q2 relaterer til intern kvalitet - *bygger vi systemet rigtigt*
-* Q3 og Q4 har eksternt kundeperspektiv - *bygger vi det rigtige system*
+* Q1 og Q4 relaterer til intern kvalitet - *bygger vi systemet rigtigt*
+* Q2 og Q3 har eksternt kundeperspektiv - *bygger vi det rigtige system*
 
 ![](img/Agile_Testing_Quadrants.png)
 
@@ -136,7 +151,7 @@ Kaspers Command Pattern Skabelon er allerede forberedt på unit- og integrations
 1. Der skal laves en tom test-database og laves en sql-bruger som har adgang. Gør det gerne på localhost.
 2. Der skal oprettes en kopi (uden indhold) af tabellerne (og evt. views) fra den rigtige database.
 3. Der skal skrives en jdbc connection string, som skal pege på test-databasen.
-4. Der skal fyldes test-data i test-databasens tabeller. Det skal gøres hver gang en test køres, så vi er 100% sikre på indholdet. Det gøres i 
+4. Der skal fyldes test-data i test-databasens tabeller. Det skal gøres hver gang en test køres, så vi er 100% sikre på indholdet. Det gøres i @Before sektionen. 
 
 Her er en [detaljeret opskrift](IntegrationstestDatabase.md).
 
