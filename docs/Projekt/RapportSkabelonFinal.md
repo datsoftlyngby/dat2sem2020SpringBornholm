@@ -64,7 +64,7 @@ Som led i beskrivelsen af Domæne eller ER diagram skal man have følgende med:
 
 Der er interessant at beskrive hvilke overvejelser der ligger til grund for de konkrete valg der er i ER modellen (fremmednøgler, constraints, triggers, osv)
 
-## Navigationsdiagram
+## Navigationsdiagram & Mockups
 Det som brugeren oplever er en række websider hvor man kan indtaste oplysninger gå videre til andre sider. I større systemer kan det være svært at bevare overblikket over hvilke sider der er, og hvordan man kommer fra den ene til den anden. Navigationsdiagrammet er beregnet på at vise dette på en mere overskuelig måde. Som led i beskrivelsen af navigationsdiagrammet skal følgende med:
 
 * Oversigts diagrammet. Hvis det bliver for stort må man dele det op. Men det er vigtigt at der er et overordnet diagram.
@@ -72,7 +72,11 @@ Det som brugeren oplever er en række websider hvor man kan indtaste oplysninger
 * Hvis nogle sider kun kan nåes af nogle brugere (dem der har konto, dem der er logget ind, dem der arbejder i butikken,...), så skal det fremgå.
 * Navne på jsp sider skal fremgå, og hvilke servlet der bringer en fra den ene side til den næste.
 
+## Valg af arkitektur
+Beskrivelse af den forelagte skabelon, som er konstrueret ud fra et command-pattern og en 3-lags arkitektur. Facadelag, singletons etc. 
+
 ## Sekvens diagrammer
+Dokumentation af udvalgte dele af koden.
 De fleste programmører kan læse de enkelte metoder i et program, mens det kan være svært at skabe sig et overblik over hvordan programmet virker på overordnet plan. Et sekvens diagram bruges til at vise hvordan et typisk forløb foregår, eller til at vise et særligt svært særtilfælde. *Man kan aldrig dokumentere hele programmet med sekvensdiagrammer, man vælger altid nogle interessante eksempler*.
 
 Et eksempel på et typisk forløb kunne være at brugeren præsenteres for indkøbssiden. Her skal der vises følgende:
@@ -87,7 +91,7 @@ I forklaringen til diagrammet skal du særligt lægge vægt at beskrive hvilke g
 Dette afsnit bruges til at beskrive særlige forhold der benyttes i programmet. Det kan f.eks. være:
 
 * Hvilke informationer gemmes i session
-* Hvordan håndterer man exceptions. 
+* Hvordan håndterer man exceptions og logger. 
 * Hvordan man på har valgt at lave brugerindput validering
 * Hvordan man har valgt at lave sikkerhed i forbindelse med login
 * Hvilke brugertyper der er valgt i databasen, og hvodan de er brugt i jdbc
@@ -127,7 +131,7 @@ Der skal være lavet test. Du kan dokumentere tests ved at beskrive i tabel form
 Desuden kan du beskrive hvordan i systematisk har arbejdet med at teste koden før den er blevet gjort til en del af master branch.
 
 ## Process
-Der skal være et afsnit hvor I beskriver jeres arbejsprocess i projekt perioden. Der skal dels være et faktuelt afsnit og et reflektions afsnit.
+Der skal være et afsnit hvor I beskriver jeres arbejsprocess i projekt perioden. Der skal dels være et faktuelt afsnit og et reflektions afsnit. Nævn f.eks. også at I har brugt Taiga.io til at styre processen, og indsæt gerne skærmdumps til at vise det.
 
 ### Arbejdsprocessen faktuelt
 Dette afsnit skal beskrive:
