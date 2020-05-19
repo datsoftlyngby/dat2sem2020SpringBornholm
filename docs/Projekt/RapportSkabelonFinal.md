@@ -12,8 +12,10 @@ Det er almindeligt at der på forsiden er følgende informationer
 * Tidspunkt *Hvornår blev projektet og rapporten lavet - husk årstal*
 
 ### Links: 
-+ link til github
-+ link til running version in the cloud (digital ocean)
++ Link til GitHub repository for den seneste kode på afleveringstidspunktet. 
++ Link til Java Doc på GitHub pages
++ Link til demovideo (på YouTube, Vimeo etc). En video på ca. 5 minutter, som viser brugen af systemet. Formålet er at Censor og eksaminator skal se videoen og få et indtryk af det færdige resultat. Demovideoen kan f.eks. optages ved hjælp af et screen cast program. F.eks. [Screencast-o-matic](https://screencast-o-matic.com). Gruppen kan evt. sidde sammen på Zoom og dele en skærm mens de laver demoen, så flere kan kommentere undervejs.
++ Link til kørende version af deres website på Digital Ocean (en deployet version) og angivelse af login navn + kodeord til en demo admin bruger.
 
 ## Indledning
 Kort intro til hvad dette projekt omhandler. Formålet med indledning er at sætte en fagfælle i stand til at forstå resten af rapporten. For jer som studerende er en "fagfælle" en anden datamatiker studerende på 2. semester der er på samme niveau, men som ikke kender opgaven. 
@@ -22,7 +24,7 @@ Kort intro til hvad dette projekt omhandler. Formålet med indledning er at sæt
 Det typiske der skal med for at forklare projektet er:
 
 * En kort beskrivelse af den virksomhed som skal bruge systemet
-* Hvilke krav kunden har til systemet forklaret i brede termer, f.eks. "*kunden skal kunne bestille en cupcake, hvor man kan vælge både bund og top.*" i modsætning til "*der skal være en drop down menu med scrollbar i højre side med en liste over hvilke bunde der er og hvad de koster*". 
+* Hvilke krav kunden har til systemet forklaret i brede termer, f.eks. "*kunden skal kunne bestille en carport, hvor man kan vælge både højde og bredde.*" i modsætning til "*der skal være en drop down menu med scrollbar i højre side med en liste over hvilke typer der er og hvad de koster*". 
 
 ### Teknologi valg
 En kort beskrivelse af hvilke teknologier der er brugt (jdbc, mysql, ...). Her er det *ikke* meningen at I skal beskrive disse teknologier, men man skal sige hvilke der er brugt sådan at den der skal overtage projektet ved hvilken software der skal bruges. Der skal versions numre på (Netbeans 8.2, ikke blot "Netbeans").
@@ -34,7 +36,7 @@ Der er to dele i dette afsnit:
 * scrum userstories (product backlog)
 
 ### Overordnet beskrivelse af virksomheden
-Hvad laver virksomheden? Grundlæggende skal dette afsnit besvare de spørgsmål som i har besvaret med SWOT analyse og interessant analyse tidligere.
+Hvad laver virksomheden? Grundlæggende skal dette afsnit besvare de spørgsmål som i har besvaret med *SWOT analyse og interessant analyse* tidligere.
 
 ### Arbejdsgange der skal IT-støttes
 Dels skal afsnittet beskrive de overordnede arbejdsgange før og efter IT systemet. Gerne beskrevet med "as-is" og "to-be" som aktivitets diagrammerne.
@@ -45,13 +47,11 @@ Dette afsnit skal beskrive de user-stories der er aftalt med product-owner. Det 
 + der er beskrevet how-to-demo
 + der er brudt ned i tasks
 + der er lavet et estimat
-+ den enkelte story følger INVEST princippet
-+ at det er klart hvordan den tilfører værdi
 
 Den fulde produkt backlog kan ligge som appendix.
 
 ## Domæne model og ER diagram
-Det interesante ved denne domæne og database er at den langt hen af vejen er grundlaget for resten at systemet. Tabeller og relationer siger noget om *hvad* systemet arbejder med, ikke *hvordan*. Så det er godt sted at starte.
+Det interesante ved domænemodel og databasen, er at de langt hen af vejen er grundlaget for resten at systemet. Tabeller og relationer siger noget om *hvad* systemet arbejder med, ikke *hvordan*. Så det er godt sted at starte. Husk at domænemodellen kommer før ER diagrammet, og at domænemodellen ikke handler om implementering. Det er kun konceptuelle klaser med attributter, der beskriver den virkelige verden.
 
 Som led i beskrivelsen af Domæne eller ER diagram skal man have følgende med:
 
