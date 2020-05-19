@@ -1,7 +1,20 @@
 # Projekt
 
 ## Opgave beskrivelsen
-I finder opgave beskrivelsen her: [Projekt beskrivelse](ProjektOpgave2020Forside.md)
+I finder opgavebeskrivelsen her: [Projekt beskrivelse](ProjektOpgave2020Forside.md)
+
+## Vigtige datoer
+
+Aflevering:
+Fredag d. 29. maj kl. 12.00 i WISEflow
+
+Eksamen: Uge 25 (15-19/6)
+
+## Eksamensform
+Individuel eksamen på 30 minutter i Zoom.
+Den studerende kan starte eksamen med at bruge 5-10 minutter på at vise en powerpoint med aspekter fra projektet de synes har været særlig interessant, noget kode, noget proces etc. Derefter foregår resten af eksamen med en dialog om fog-opgaven og pensum på 2. semester. 
+
+
 
 ## Link til div. videoer omkring SCRUM
 Dette er generele videoer
