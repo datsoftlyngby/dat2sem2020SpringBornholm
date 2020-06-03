@@ -63,4 +63,5 @@ Alle de centrale videoer til dette semester er samlet i dette [bibliotek](https:
 |        19  | 06-05-2020   | [Fejlhåndtering og logging](Modul5/Week4-Errorhandling/)  |[Carportprojekt](Projekt/)|
 
 
-Resten af skemaet følger i den kommende tid, men følger samme kadence.
+## Eksamen
+[Eksamen](./exam/)
