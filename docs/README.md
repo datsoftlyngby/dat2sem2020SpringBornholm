@@ -64,4 +64,4 @@ Alle de centrale videoer til dette semester er samlet i dette [bibliotek](https:
 
 
 ## Eksamen
-[Eksamen](./exam/)
+[Eksamen](./Exam/)
