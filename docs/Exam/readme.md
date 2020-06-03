@@ -64,30 +64,6 @@ Vi bruger ca. 5 minutter til at votere.
 
 ## Pensum
 
-Pensum for 1. semester indgår implicit i eksamen og består af følgende:
-
-Grundlæggende kendskab til Javaprogrammering:
-
-[Think Java, kap 1-7 og 9-10](http://greenteapress.com/thinkjava6/thinkjava.pdf)
-
-Derudover har vi suppleret med egne videoer for at understøtte elevernes forberedelse til
-undervisningen inden for følgende emner:
-
-1. Simple datatyper
-2. Arrays
-3. Metoder
-4. Løkker
-5. Logiske operatorer og kontrolstrukturer
-6. Objekter, referencer, indkapsling, nedarvning, polymorfi, interfaces
-7. Collection framework
-8. Exceptions (try-catch)
-9. Debugning
-10. Junit tests
-11. Scanner
-12. Skrivning og læsning fra filer
-13. JDBC
-14. Mysql
-
-På 2. semester fremgår pensum af denne [semesteroversigt](https://datsoftlyngby.github.io/dat2sem2020SpringBornholm/).
+Se denne [oversigt](emner.md) og brug den til at repetere efter.
 
 
